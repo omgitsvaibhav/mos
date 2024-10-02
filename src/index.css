@@ -1,11 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-#root {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0px;
+@layer base {
+  html {
+    @apply min-h-screen scroll-smooth;
+  }
+
+  #root {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+}
+
+@layer components {
+  .navbar-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 350;
+    margin: 0 18px 0 18px;
+    transition: font-weight 0.5s ease-in-out;
+  }
+
+  .navbar-link:hover{
+    font-weight: 550;
+    cursor: pointer;
+  }
+
+  .navbar-link:active{
+    @apply underline underline-offset-4 font-[550]
+  }
+
+  .navbar-link:focus{
+    @apply underline underline-offset-4 font-[550]
+  }
 }
