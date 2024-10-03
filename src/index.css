@@ -9,7 +9,7 @@
     @apply min-h-screen scroll-smooth;
   }
 
-  #root {
+  body {
     width: 100%;
     margin: 0 auto;
     padding: 0px;
@@ -20,21 +20,45 @@
   .navbar-link {
     color: white;
     font-size: 16px;
-    font-weight: 350;
-    margin: 0 18px 0 18px;
+    font-weight: 400;
     transition: font-weight 0.5s ease-in-out;
   }
 
   .navbar-link:hover{
-    font-weight: 550;
+    font-weight: 600;
     cursor: pointer;
   }
 
   .navbar-link:active{
-    @apply underline underline-offset-4 font-[550]
+    @apply underline underline-offset-4 font-[600]
   }
 
   .navbar-link:focus{
-    @apply underline underline-offset-4 font-[550]
+    @apply underline underline-offset-4 font-[600]
+  }
+
+  .footer-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    transition: font-weight 0.5s ease-in-out;
+  }
+
+  .footer-link:hover{
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+}
+
+@layer utilities {
+  .button-hover {
+    transition: color border 0.5s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out;
+  }
+  .button-hover:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
   }
 }
