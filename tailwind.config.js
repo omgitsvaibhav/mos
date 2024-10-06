@@ -14,7 +14,7 @@ export default {
         playfair: "'Playfair Display'"
       },
       backgroundImage: {
-        'home': "url('/home/sukanya.jpg')"
+        'home': "url('/home/header.jpg')"
       }
       // backgroundImage: {
       //   "gradient-colour": "linear-gradient(57.5deg, #1c1c1c 50%, #272727 50%)",

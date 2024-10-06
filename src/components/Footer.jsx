@@ -9,10 +9,10 @@ const Footer = () => {
             by Sukanya
           </h1>
         <div className="flex flex-cols-2 items-center">
-          <Link to="#" className="mr-[15px]">
+          <Link to="https://www.youtube.com/@makeoversbysukanya" target="blank" className="mr-[15px]">
             <img src="/assets/yt.png" alt="youtube" className="h-[38px]" />
           </Link>
-          <Link to="#">
+          <Link to="https://www.instagram.com/makeoversbysukanya/?igsh=bGU0Y2Y4cGV2ejIw" target="blank">
             <img src="/assets/Insta.png" alt="instagram" className="w-[22px] h-[22px]" />
           </Link>
         </div>

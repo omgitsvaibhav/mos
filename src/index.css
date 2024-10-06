@@ -61,4 +61,14 @@
     border: 1px solid white;
     color: white;
   }
+
+  .other-button-hover {
+    transition: color border 0.5s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out;
+  }
+  .other-button-hover:hover{
+    background-color: transparent;
+    border: 1px solid #90444d;
+    color: #90444d;
+  }
 }
