@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-between items-center w-full h-[423px] bg-[#1e1e1e] pl-[220px] pr-[220px]">
+    <footer className="flex justify-between items-center w-full h-[350px] bg-[#1e1e1e] pl-[220px] pr-[220px]">
       <div className="grid grid-cols-1 space-y-[20px]">
-          <h1 className="font-playfair text-white text-[42px] font-black">
-            Makeovers<br/>
+          <h1 className="font-playfair text-white text-[42px] font-black leading-[45px]">
+            <span className="tracking-wide">Makeovers</span><br/>
             by Sukanya
           </h1>
         <div className="flex flex-cols-2 items-center">

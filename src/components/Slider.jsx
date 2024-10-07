@@ -6,19 +6,19 @@ import { Link } from 'react-router-dom';
 const slides = [
   {
     name: "Aashna Malhotra",
-    content: "Booked Sukanya to do my wedding and cocktail makeup. She was an absolute delight to be around, and did a great job. She was considerate about the ready time and was very punctual. Sukanya is great at what she does and I was quite happy with all the looks. Her team managed everything efficiently. The hair artist was also great and everyone was very helpful. She's just the kind of person one needs around during all the pre wedding stress. I would definitely recommend her."
+    content: "Booked Sukanya to do my wedding and cocktail makeup. She was an absolute delight to be around, and did a great job. She was considerate about the ready time and was very punctual. Sukanya is great at what she does and I was quite happy with all the looks. Her team managed everything efficiently. The hair artist was also great and everyone was very helpful. She's just the kind of person one needs around during all the pre wedding stress. I would definitely recommend her. "
   },
   {
-    name: "Sid Malhotra",
-    content: "Booked Sukanya to do my wedding and cocktail makeup. She was an absolute delight to be around, and did a great job. She was considerate about the ready time and was very punctual. Sukanya is great at what she does and I was quite happy with all the looks. Her team managed everything efficiently. The hair artist was also great and everyone was very helpful. She's just the kind of person one needs around during all the pre wedding stress. I would definitely recommend her."
+    name: "Shraddha Jadhav",
+    content: "I absolutely loved Sukanya’s work for both my sangeet and wedding; I couldn't have been more impressed. Sukanya and her team made me feel incredibly comfortable and they were so genuine with everything. Sukanya was able to highlight and enhance my features and yet make me feel natural. I loved both the looks and not once did I feel insecure in any sort of way. In fact, she made me feel so confident on my special days. Thank you for your amazing work, and making me feel like the best version of myself and truly special! :)."
   },
   {
-    name: "Yes Malhotra",
-    content: "Booked Sukanya to do my wedding and cocktail makeup. She was an absolute delight to be around, and did a great job. She was considerate about the ready time and was very punctual. Sukanya is great at what she does and I was quite happy with all the looks. Her team managed everything efficiently. The hair artist was also great and everyone was very helpful. She's just the kind of person one needs around during all the pre wedding stress. I would definitely recommend her."
+    name: "Naini Gandhi",
+    content: "Sukanya and team are literally amazing! Sukanya is so lovely and warm that I instantly felt comfortable telling her exactly how I wanted the looks but she would give me so many ideas too and was so happy to go minimal and make my bridal looks about me. Even though it was minimal Sukanya used all the make up techniques to highlight my key features and cover my insecurities. I felt beautiful every time I left the room and got so many compliments for my hair and make up."
   },
   {
-    name: "No Malhotra",
-    content: "Booked Sukanya to do my wedding and cocktail makeup. She was an absolute delight to be around, and did a great job. She was considerate about the ready time and was very punctual. Sukanya is great at what she does and I was quite happy with all the looks. Her team managed everything efficiently. The hair artist was also great and everyone was very helpful. She's just the kind of person one needs around during all the pre wedding stress. I would definitely recommend her."
+    name: "Alisha Mascarenhas",
+    content: "Sukanya and her Team did absolute magical work on my wedding day. From travelling so far early morning to be at my location at 5 am and being there on time, I was quite impressed by the professionalism. She made me look so flawless. It was amazing to feel so beautiful (and to receive so many compliments). Thank you so much Sukanya and the team for adding to the beauty of my wedding and making me look picture perfect!!"
   },
 ];
 
@@ -62,9 +62,9 @@ const TestimonialSlider = () => {
           >
             {slides.map((slide, index) => (
               <div key={index} className="w-full px-10">
-                <div  key={index} className="bg-white rounded-lg shadow-lg w-[852px] p-8">
+                <div  key={index} className="bg-white rounded-2xl w-[852px] p-8">
                   <p className="font-mont text-[14px] font-bold mb-4">{slide.name} says,</p>
-                  <p className="font-mont text-[14px]">{slide.content}</p>
+                  <p className="font-mont text-[14px] text-justify">{slide.content}</p>
                 </div>
               </div>
             ))}

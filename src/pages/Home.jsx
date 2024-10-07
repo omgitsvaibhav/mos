@@ -57,27 +57,37 @@ const Home = () => {
         <p className="font-mont text-[14px] text-center">to explore stunning transformations we have achieved on our beautiful brides having</p>
         <p className="font-mont text-[14px] text-center mb-[53px]">tailored to various bridal traditions and styles</p>
         <div className="flex flex-row w-full justify-center items-center mb-[40px]">
-          <img src="/home/lookbook2.jpg" alt="lookbook 1" className="w-[273px] h-[273px] object-cover object-right mx-[24px]"/>
+          <img src="/home/lookbook1.JPG" alt="lookbook 1" className="w-[273px] h-[273px] object-cover object-center mx-[24px]"/>
           <img src="/home/lookbook2.jpg" alt="lookbook 2" className="w-[273px] h-[273px] object-cover object-right mx-[24px]"/>
           <img src="/home/lookbook3.JPG" alt="lookbook 3" className="w-[400px] h-[273px] object-cover mx-[24px]"/>
-          <img src="/home/lookbook2.jpg" alt="lookbook 4" className="w-[273px] h-[273px] object-cover object-right mx-[24px]"/>
+          <img src="/home/lookbook4.JPG" alt="lookbook 4" className="w-[273px] h-[273px] object-cover object-center mx-[24px]"/>
         </div>
         <Link className="font-playfair font-bold text-[20px] other-button-hover text-center h-[49px] w-[232px] bg-[#de919b] py-2 mb-[60px]">View Full Lookbook</Link>
       </section>
       <section className="bg-[#f9ebeb] flex flex-col justify-center items-center w-full px-[144px]">
       <h1 className="font-playfair font-bold text-[40px] text-[#343232] text-center mt-[55px] mb-[44px]">About Us</h1>
       <div className="flex flex-row mb-[55px]">
-        <div className="relative w-[497px] pr-[39px]">
-          <p>Welcome to Makeovers by Sukanya, where every bride is transformed into a masterpiece of elegance admiration, uniquely crafted for her special day. With over a decade of experience, Sukanya has become one of India’s leading bridal makeup artists, having brought her artistry to more than 3,000 brides worldwide.</p>
-          <p>Sukanya’s love affair with makeup began in her childhood, fueled by a deep passion for art and a fascination with colours.</p>
-          <div className="grid grid-cols-3 gap-[64px] place-items-center pr-[121px] mt-[35px]">
-            <h3>3000+<br/><span>BRIDES</span></h3>
-            <h3>10+<br/><span>YEARS</span></h3>
-            <h3>65k+<br/><span>INSTAGRAM</span><br/><span>FOLLOWERS</span></h3>
+        <div className="relative w-[497px] pr-[39px] font-mont text-[14px]">
+          <p className="text-justify">Welcome to Makeovers by Sukanya, where every bride is transformed into a masterpiece of elegance admiration, uniquely crafted for her special day. With over a decade of experience, Sukanya has become one of India’s leading bridal makeup artists, having brought her artistry to more than 3,000 brides worldwide.</p>
+          <br/>
+          <p className="text-justify">Sukanya’s love affair with makeup began in her childhood, fueled by a deep passion for art and a fascination with colours.</p>
+          <div className="grid grid-cols-3 place-items-baseline mt-[35px]">
+            <div className="grid place-items-center">
+              <h3 className="font-playfair font-bold text-[40px] text-center">3000+</h3>
+              <span className="font-mont text-[14px] text-center">BRIDES</span>
+            </div>
+            <div className="grid place-items-center pl-5">
+              <h3 className="font-playfair font-bold text-[40px] text-center">10+</h3>
+              <span className="font-mont text-[14px] text-center">YEARS</span>
+            </div>
+            <div className="grid place-items-center">
+              <h3 className="font-playfair font-bold text-[40px] text-center">65k+</h3>
+              <span className="font-mont text-[14px] text-center">INSTAGRAM<br/>FOLLOWERS</span>
+            </div>
           </div>
           <Link className="font-playfair font-bold text-[20px] other-button-hover text-center h-[49px] w-[157px] bg-[#de919b] py-2 absolute bottom-0 left-0">Read More</Link>
         </div>
-        <div alt="Sukanya image" className="w-[625px] h-[376px] bg-home bg-cover bg-[center_top_-8rem]"/>
+        <div alt="Sukanya image" className="w-[625px] h-[400px] bg-home bg-cover bg-[center_top_-8rem]"/>
       </div>
       </section> 
     </>
