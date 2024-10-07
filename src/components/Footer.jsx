@@ -38,10 +38,10 @@ const Footer = () => {
         <div className="flex flex-col">
           <p className="font-mont font-bold text-[20px] text-white">Contact</p>
           <div className="grid mt-[24px] space-y-[20px]">
-            <Link to="#" className="font-mont footer-link">
+            <Link to="https://wa.me/message/U4OU4KSH7NAFG1" target="blank" className="font-mont footer-link">
               WhatsApp Us
             </Link>
-            <Link to="#" className="font-mont footer-link">
+            <Link to="mailto:manager@mos.com" target="blank" className="font-mont footer-link">
               Email Us
             </Link>
           </div>

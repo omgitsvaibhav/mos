@@ -64,8 +64,24 @@ const Home = () => {
         </div>
         <Link className="font-playfair font-bold text-[20px] other-button-hover text-center h-[49px] w-[232px] bg-[#de919b] py-2 mb-[60px]">View Full Lookbook</Link>
       </section>
+      <section className="bg-[#f9ebeb] flex flex-col justify-center items-center w-full px-[144px]">
+      <h1 className="font-playfair font-bold text-[40px] text-[#343232] text-center mt-[55px] mb-[44px]">About Us</h1>
+      <div className="flex flex-row mb-[55px]">
+        <div className="relative w-[497px] pr-[39px]">
+          <p>Welcome to Makeovers by Sukanya, where every bride is transformed into a masterpiece of elegance admiration, uniquely crafted for her special day. With over a decade of experience, Sukanya has become one of India’s leading bridal makeup artists, having brought her artistry to more than 3,000 brides worldwide.</p>
+          <p>Sukanya’s love affair with makeup began in her childhood, fueled by a deep passion for art and a fascination with colours.</p>
+          <div className="grid grid-cols-3 gap-[64px] place-items-center pr-[121px] mt-[35px]">
+            <h3>3000+<br/><span>BRIDES</span></h3>
+            <h3>10+<br/><span>YEARS</span></h3>
+            <h3>65k+<br/><span>INSTAGRAM</span><br/><span>FOLLOWERS</span></h3>
+          </div>
+          <Link className="font-playfair font-bold text-[20px] other-button-hover text-center h-[49px] w-[157px] bg-[#de919b] py-2 absolute bottom-0 left-0">Read More</Link>
+        </div>
+        <div alt="Sukanya image" className="w-[625px] h-[376px] bg-home bg-cover bg-[center_top_-8rem]"/>
+      </div>
+      </section> 
     </>
   );
-};
+}; 
 
 export default Home;
