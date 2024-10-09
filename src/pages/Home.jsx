@@ -90,6 +90,29 @@ const Home = () => {
         <div alt="Sukanya image" className="w-[625px] h-[400px] bg-home bg-cover bg-[center_top_-8rem]"/>
       </div>
       </section> 
+      <section className="w-full px-[255px] h-[650px]">
+        <h1 className="font-playfair text-[40px] font-bold text-[#343232] text-center mt-[55px] mb-[55px]">Services</h1>
+        <div className="flex flex-row justify-around space-x-[90px] mb-[111px] h-[480px]">
+          <div className="grid place-items-center h-[300px] px-[25px] pt-[25px] group bg-[#f9ebeb] bg-opacity-0 transition-all duration-500 ease-in-out hover:bg-opacity-100 transform hover:h-[430px] hover:shadow-[8px_8px_10px_0px_rgba(0,0,0,0.1)]">
+            <img alt="service 1" src="/home/service 1.JPG" className="rounded-full h-[200px] w-[200px] object-cover"/>
+            <p className="font-playfair text-[24px] mt-6">Makeup</p>
+            <p className="font-mont text-[14px] text-center mb-[30px]">Bridal makeup, guest<br/>makeup, casual...</p>
+            <Link to="#" className="bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100">Know more</Link>
+          </div>
+          <div className="grid place-items-center h-[300px] px-[25px] pt-[25px] group bg-[#f9ebeb] bg-opacity-0 transition-all duration-500 ease-in-out hover:bg-opacity-100 transform hover:h-[430px] hover:shadow-[8px_8px_10px_0px_rgba(0,0,0,0.1)]">
+            <img src="/home/service 2.JPG" alt="service 2" className="rounded-full h-[200px] w-[200px] object-cover"/>
+            <p className="font-playfair text-[24px] mt-6">Hair Styling</p>
+            <p className="font-mont text-[14px] text-center mb-[30px]">Bridal hair styling, guest<br/>hair, and...</p>
+            <Link to="#" className="bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100">Know more</Link>
+          </div>
+          <div className="grid place-items-center h-[300px] px-[25px] pt-[25px] group bg-[#f9ebeb] bg-opacity-0 transition-all duration-500 ease-in-out hover:bg-opacity-100 transform hover:h-[430px] hover:shadow-[8px_8px_10px_0px_rgba(0,0,0,0.1)]">
+          <img src="/home/service 3.JPG" alt="service 3" className="rounded-full h-[200px] w-[200px] object-cover object-top"/>
+            <p className="font-playfair text-[24px] mt-6">Workshops</p>
+            <p className="font-mont text-[14px] text-center mb-[30px]">Learn with Sukanya the<br/>best techniques...</p>
+            <Link to="#" className="bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100">Know more</Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }; 
