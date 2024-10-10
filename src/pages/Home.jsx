@@ -57,10 +57,22 @@ const Home = () => {
         <p className="font-mont text-[14px] text-center">to explore stunning transformations we have achieved on our beautiful brides having</p>
         <p className="font-mont text-[14px] text-center mb-[53px]">tailored to various bridal traditions and styles</p>
         <div className="flex flex-row w-full justify-center items-center mb-[40px]">
-          <img src="/home/lookbook1.JPG" alt="lookbook 1" className="w-[273px] h-[273px] object-cover object-center mx-[24px]"/>
-          <img src="/home/lookbook2.jpg" alt="lookbook 2" className="w-[273px] h-[273px] object-cover object-right mx-[24px]"/>
-          <img src="/home/lookbook3.JPG" alt="lookbook 3" className="w-[400px] h-[273px] object-cover mx-[24px]"/>
-          <img src="/home/lookbook4.JPG" alt="lookbook 4" className="w-[273px] h-[273px] object-cover object-center mx-[24px]"/>
+          <figure className="relative group">
+            <img src="/home/lookbook1.JPG" alt="lookbook 1" className="w-[273px] h-[273px] object-cover object-center mx-[24px]"/>
+            <figcaption className="absolute w-[273px] py-2 pl-4 text-left bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">Makeup & Hair for Floral Shoot in Goa</figcaption>
+          </figure>
+          <figure className="relative group">
+            <img src="/home/lookbook2.jpg" alt="lookbook 2" className="w-[273px] h-[273px] object-cover object-right mx-[24px]"/>
+            <figcaption className="absolute w-[273px] py-2 pl-4 text-left bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">Makeup & Hair for Floral Shoot in Goa</figcaption>
+          </figure>
+          <figure className="relative group">
+            <img src="/home/lookbook3.JPG" alt="lookbook 3" className="w-[273px] h-[273px] object-cover mx-[24px]"/>
+            <figcaption className="absolute w-[273px] py-2 pl-4 text-left bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">Makeup & Hair for Floral Shoot in Goa</figcaption>
+          </figure>
+          <figure className="relative group">
+            <img src="/home/lookbook4.JPG" alt="lookbook 4" className="w-[273px] h-[273px] object-cover object-center mx-[24px]"/>
+            <figcaption className="absolute w-[273px] py-2 pl-4 text-left bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">Makeup & Hair for Floral Shoot in Goa</figcaption>
+          </figure>
         </div>
         <Link className="font-playfair font-bold text-[20px] other-button-hover text-center h-[49px] w-[232px] bg-[#de919b] py-2 mb-[60px]">View Full Lookbook</Link>
       </section>
@@ -85,7 +97,7 @@ const Home = () => {
               <span className="font-mont text-[14px] text-center">INSTAGRAM<br/>FOLLOWERS</span>
             </div>
           </div>
-          <Link className="font-playfair font-bold text-[20px] other-button-hover text-center h-[49px] w-[157px] bg-[#de919b] py-2 absolute bottom-0 left-0">Read More</Link>
+          <Link to='/about' className="font-playfair font-bold text-[20px] other-button-hover text-center h-[49px] w-[157px] bg-[#de919b] py-2 absolute bottom-0 left-0">Read More</Link>
         </div>
         <div alt="Sukanya image" className="w-[625px] h-[400px] bg-home bg-cover bg-[center_top_-8rem]"/>
       </div>
@@ -97,19 +109,19 @@ const Home = () => {
             <img alt="service 1" src="/home/service 1.JPG" className="rounded-full h-[200px] w-[200px] object-cover"/>
             <p className="font-playfair text-[24px] mt-6">Makeup</p>
             <p className="font-mont text-[14px] text-center mb-[30px]">Bridal makeup, guest<br/>makeup, casual...</p>
-            <Link to="#" className="bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100">Know more</Link>
+            <Link to="#" className="bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 hover:bg-transparent hover:border-[1px] hover:border-[#90444d] hover:border-solid hover:text-[#90444d]">Know more</Link>
           </div>
           <div className="grid place-items-center h-[300px] px-[25px] pt-[25px] group bg-[#f9ebeb] bg-opacity-0 transition-all duration-500 ease-in-out hover:bg-opacity-100 transform hover:h-[430px] hover:shadow-[8px_8px_10px_0px_rgba(0,0,0,0.1)]">
             <img src="/home/service 2.JPG" alt="service 2" className="rounded-full h-[200px] w-[200px] object-cover"/>
             <p className="font-playfair text-[24px] mt-6">Hair Styling</p>
             <p className="font-mont text-[14px] text-center mb-[30px]">Bridal hair styling, guest<br/>hair, and...</p>
-            <Link to="#" className="bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100">Know more</Link>
+            <Link to="#" className="bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 hover:bg-transparent hover:border-[1px] hover:border-[#90444d] hover:border-solid hover:text-[#90444d]">Know more</Link>
           </div>
           <div className="grid place-items-center h-[300px] px-[25px] pt-[25px] group bg-[#f9ebeb] bg-opacity-0 transition-all duration-500 ease-in-out hover:bg-opacity-100 transform hover:h-[430px] hover:shadow-[8px_8px_10px_0px_rgba(0,0,0,0.1)]">
           <img src="/home/service 3.JPG" alt="service 3" className="rounded-full h-[200px] w-[200px] object-cover object-top"/>
             <p className="font-playfair text-[24px] mt-6">Workshops</p>
             <p className="font-mont text-[14px] text-center mb-[30px]">Learn with Sukanya the<br/>best techniques...</p>
-            <Link to="#" className="bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100">Know more</Link>
+            <Link to="#" className="bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 hover:bg-transparent hover:border-[1px] hover:border-[#90444d] hover:border-solid hover:text-[#90444d]">Know more</Link>
           </div>
         </div>
       </section>

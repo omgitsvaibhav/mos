@@ -21,10 +21,10 @@ const Footer = () => {
         <div className="flex flex-col">
           <p className="font-mont font-bold text-[20px] text-white">Discover</p>
           <div className="grid mt-[24px] space-y-[20px]">
-            <Link to="#" className="font-mont footer-link">
+            <Link to="/" className="font-mont footer-link">
               Home
             </Link>
-            <Link to="#" className="font-mont footer-link">
+            <Link to="/about" className="font-mont footer-link">
               About
             </Link>
             <Link to="#" className="font-mont footer-link">

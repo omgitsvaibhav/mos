@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
@@ -63,8 +63,8 @@
   }
 
   .other-button-hover {
-    transition: color border 0.5s ease-in-out;
-    -webkit-transition: background-color 0.5s ease-in-out;
+    transition: color border 500ms ease-in-out;
+    -webkit-transition: background-color 500ms ease-in-out;
   }
   .other-button-hover:hover{
     background-color: transparent;
