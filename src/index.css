@@ -71,4 +71,12 @@
     border: 1px solid #90444d;
     color: #90444d;
   }
+
+  .page-header {
+    @apply h-[600px] w-full bg-cover bg-[center_top_-20rem] relative
+  }
+
+  .page-header-gradient{
+    @apply absolute top-[400px] h-[200px] inset-0 bg-gradient-to-b from-transparent to-white
+  }
 }
