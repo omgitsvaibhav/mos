@@ -18,7 +18,7 @@ export default {
         'about': "url('/about/header.png')",
         'service': "url('/service/header.png')",
         // 'lookbook': "url('/lookbook/header.png')",
-        // 'contact': "url('/contact/header.png')"
+        'contact': "url('/contact/header.png')"
       }
       // backgroundImage: {
       //   "gradient-colour": "linear-gradient(57.5deg, #1c1c1c 50%, #272727 50%)",

@@ -38,12 +38,18 @@ const Footer = () => {
         <div className="flex flex-col">
           <p className="font-mont font-bold text-[20px] text-white">Contact</p>
           <div className="grid mt-[24px] space-y-[20px]">
-            <Link to="https://wa.me/message/U4OU4KSH7NAFG1" target="blank" className="font-mont footer-link">
-              WhatsApp Us
-            </Link>
-            <Link to="mailto:manager@mos.com" target="blank" className="font-mont footer-link">
-              Email Us
-            </Link>
+            <div>
+              <p className="font-mont font-bold text-[16px] text-white">Call Us</p>
+              <Link to="tel:+919370189427" className="font-mont footer-link">
+                  +91 9370189427
+              </Link>
+            </div>
+            <div>
+            <p className="font-mont font-bold text-[16px] text-white">Email Us</p>
+              <Link to="mailto:manager@mosbeauty.in" target="blank" className="font-mont footer-link">
+              manager@mosbeauty.in
+              </Link>
+            </div>
           </div>
         </div>
       </div>

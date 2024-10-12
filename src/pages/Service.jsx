@@ -12,7 +12,7 @@ const Service = () => {
             <p className="font-mont text-[16px] mb-[55px]">Discover more about what we offer below.</p>
             <div className="grid gap-[67px]">
                 <div className="flex flex-row justify-between bg-[#f9ebeb] relative parent h-[400px]">
-                    <div className="flex flex-col relative p-10 w-[900px]">
+                    <div className="flex flex-col relative p-10 w-[850px]">
                        <h2 className="font-playfair text-[48px] mb-4">Make Up</h2>
                        <p className="text-justify font-mont text-[14px] mb-10">
                         We love weddings! It's a true honor and joy to be part of someone’s most special day. With over 10 years of experience in luxury destination weddings, I bring a wealth of expertise to each event. We use only top-quality, luxury products, such as MAC, Estee Lauder, Bobbi Brown, Laura Mercier and so on, ensuring your look remains flawless all day long. 
@@ -22,8 +22,8 @@ const Service = () => {
                     </div>
                     <img className="child w-[480px] object-cover" src="/service/service 1.jpg" alt="service 1"/>
                 </div>
-                <div className="flex flex-row justify-between bg-[#f9ebeb] relative parent h-[400px]">
-                    <div className="flex flex-col relative p-10 w-[900px]">
+                <div className="flex flex-row justify-between bg-[#f9ebeb] relative parent h-[400px] max-h-[500px]">
+                    <div className="flex flex-col relative p-10 w-[850px]">
                        <h2 className="font-playfair text-[48px] mb-4">Hair Style</h2>
                        <p className="text-justify font-mont text-[14px] mb-10">
                        We love weddings! It's a true honor and joy to be part of someone’s most special day. With over 10 years of experience in luxury destination weddings, I bring a wealth of expertise to each event. We use only top-quality, luxury products, such as MAC, Estee Lauder, Bobbi Brown, and Laura Mercier, ensuring your look remains flawless all day. 
@@ -34,7 +34,7 @@ const Service = () => {
                     <img className="child w-[480px] object-cover object-top" src="/service/service 2.JPG" alt="service 2"/>
                 </div> 
                 <div className="flex flex-row justify-between bg-[#f9ebeb] relative parent h-[400px]">
-                    <div className="flex flex-col relative p-10 w-[900px]">
+                    <div className="flex flex-col relative p-10 w-[850px]">
                        <h2 className="font-playfair text-[48px] mb-4">Workshops</h2>
                        <p className="text-justify font-mont text-[14px] mb-10">
                        With over 10 years of experience, our team has conducted numerous workshops specializing in makeup and hairstyling. We have educated hundreds of students in bridal makeup, casual everyday makeup, various hairstyles, and hair care. 
