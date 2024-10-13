@@ -18,7 +18,7 @@ const Service = () => {
                         We love weddings! It's a true honor and joy to be part of someone’s most special day. With over 10 years of experience in luxury destination weddings, I bring a wealth of expertise to each event. We use only top-quality, luxury products, such as MAC, Estee Lauder, Bobbi Brown, Laura Mercier and so on, ensuring your look remains flawless all day long. 
                         <br/><br/>Get in touch with us, to know more about bridal makeup, bridal consultations, pricing or any other questions you might have. Don't forget to browse our lookbook to see how stunning our previous brides looked.
                        </p>
-                       <Link to='#' className="font-playfair font-bold text-[20px] h-[50px] w-[150px] other-button-hover py-2 bg-[#de919b] text-center">Contact Us</Link> 
+                       <Link to='/contact' className="font-playfair font-bold text-[20px] h-[50px] w-[150px] other-button-hover py-2 bg-[#de919b] text-center">Contact Us</Link> 
                     </div>
                     <img className="child w-[480px] object-cover" src="/service/service 1.jpg" alt="service 1"/>
                 </div>
@@ -29,7 +29,7 @@ const Service = () => {
                        We love weddings! It's a true honor and joy to be part of someone’s most special day. With over 10 years of experience in luxury destination weddings, I bring a wealth of expertise to each event. We use only top-quality, luxury products, such as MAC, Estee Lauder, Bobbi Brown, and Laura Mercier, ensuring your look remains flawless all day. 
                        <br/><br/>Get in touch with us, to know more about bridal makeup, trial sessions, pricing or any other questions you might have.
                        </p>
-                       <Link to="#" className="font-playfair font-bold text-[20px] h-[50px] w-[150px] other-button-hover py-2 bg-[#de919b] text-center">Contact Us</Link> 
+                       <Link to='/contact' className="font-playfair font-bold text-[20px] h-[50px] w-[150px] other-button-hover py-2 bg-[#de919b] text-center">Contact Us</Link> 
                     </div>
                     <img className="child w-[480px] object-cover object-top" src="/service/service 2.JPG" alt="service 2"/>
                 </div> 
@@ -40,7 +40,7 @@ const Service = () => {
                        With over 10 years of experience, our team has conducted numerous workshops specializing in makeup and hairstyling. We have educated hundreds of students in bridal makeup, casual everyday makeup, various hairstyles, and hair care. 
                        <br/><br/>Sukanya is passionate about teaching and ensures each student receives personalized attention to fully benefit from her expertise. For updates on our upcoming workshops, follow us on Instagram and stay tuned.
                        </p>
-                       <Link to="#" className="font-playfair font-bold text-[20px] h-[50px] w-[150px] other-button-hover py-2 bg-[#de919b] text-center">Contact Us</Link> 
+                       <Link to='/contact' className="font-playfair font-bold text-[20px] h-[50px] w-[150px] other-button-hover py-2 bg-[#de919b] text-center">Contact Us</Link> 
                     </div>
                     <img className="child w-[480px] object-cover" src="/home/service 3.JPG" alt="service 3"/>
                 </div> 

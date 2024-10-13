@@ -16,7 +16,7 @@ const About = () => {
                     <br/><br/>What sets Sukanya apart is her unwavering commitment to evolving her craft. She has dedicated years to refining her makeup training methodologies, ensuring that every bride receives a bespoke makeover tailored to her unique style and preferences. Her attention to detail, particularly in imaginative eye makeup, has earned her a reputation as a maestro in the industry.
                     At Makeovers by Sukanya, we don’t just apply makeup; we create art that resonates with your personality, enhancing your natural beauty to make your wedding day truly unforgettable.
                     </p>
-                    <Link className="other-button-hover py-2 bg-[#de919b] text-center absolute bottom-0 left-0 w-[150px] h-[50px] font-playfair font-bold text-[20px]">Contact Us</Link>
+                    <Link to='/contact' className="other-button-hover py-2 bg-[#de919b] text-center absolute bottom-0 left-0 w-[150px] h-[50px] font-playfair font-bold text-[20px]">Contact Us</Link>
                 </div>
                 <img src="/home/header.jpg" alt="sukanya" className="object-cover w-[740px] h-[675px]"/>
             </div>

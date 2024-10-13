@@ -17,7 +17,7 @@ export default {
         'home': "url('/home/header.jpg')",
         'about': "url('/about/header.png')",
         'service': "url('/service/header.png')",
-        // 'lookbook': "url('/lookbook/header.png')",
+        'lookbook': "url('/lookbook/header.png')",
         'contact': "url('/contact/header.png')"
       }
       // backgroundImage: {
