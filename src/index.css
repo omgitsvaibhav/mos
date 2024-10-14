@@ -49,6 +49,40 @@
     cursor: pointer;
   }
 
+  .lookbook-grid {
+    column-count: 3;
+    column-gap: 18px;
+    margin-bottom: 95px;
+  }
+
+  .lookbook-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 18px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .lookbook-item:hover img {
+    transform: scale(1.05);
+  }
+
+  .lookbook-item:last-child img {
+    height: 405px;
+    object-position: 50% 35%;
+  }
+
+  .lookbook-item:nth-last-child(2) img {
+    height: 500px;
+  }
+
+  .lookbook-item:nth-child(8) img {
+    height: 526px;
+  }
+  .lookbook-item:nth-child(7) img {
+    height: 500px;
+  }
+
 }
 
 @layer utilities {
