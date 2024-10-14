@@ -30,7 +30,7 @@ const Footer = () => {
             <Link to="/service" className="font-mont footer-link">
               Services
             </Link>
-            <Link to="#" className="font-mont footer-link">
+            <Link to="/lookbook" className="font-mont footer-link">
               Lookbook
             </Link>
           </div>

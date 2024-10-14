@@ -15,7 +15,7 @@ const Home = () => {
         </div>
         <Link
           to='/contact'
-          className="button-hover absolute font-playfair font-bold text-[24px] text-[#543737] w-[172px] h-[40px] text-center bg-[#faeae4] top-[610px]"
+          className="button-hover absolute font-playfair font-bold text-[24px] text-[#543737] w-[172px] h-[48px] text-center bg-[#faeae4] top-[610px] py-1"
         >
           Contact Us
         </Link>

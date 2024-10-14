@@ -8,11 +8,11 @@ const Contact = () => {
       <div class="page-header-gradient" />
       <section className="px-[76px] bg-white mb-[90px]">
         <h1 className="font-playfair font-bold text-[72px] mb-[27px]">
-          Our Services
+          Contact Us
         </h1>
         <p className="font-mont text-[16px]">
-          Contact us to schedule a date, request a quotation, or address any
-          inquiries you may have. Please note, our
+          Schedule a date, request a quotation, or address any
+          inquiries you may have with us. Please note, our
         </p>
         <p className="font-mont text-[16px]">
           quotations are personalized for each wedding, considering the
