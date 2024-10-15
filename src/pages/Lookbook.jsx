@@ -6,7 +6,7 @@ const Service = () => {
 
   useEffect(() => {
     const imagePaths = [];
-    for (let i = 1; i <= 24; i++) {
+    for (let i = 1; i <= 19; i++) {
       imagePaths.push(`/lookbook/lookbook (${i}).png`);
     }
     setImages(imagePaths);
@@ -20,16 +20,14 @@ const Service = () => {
         <h1 className="font-playfair font-bold text-[72px] mb-[20px]">
           Lookbook
         </h1>
-        <p className="font-mont text-[16px] w-3/4 text-justify">
-          Welcome to our Lookbook, where your vision of beauty comes to life!
+        <p className="font-mont text-[16px] mb-[60px] w-3/4 text-justify">
+        Welcome to our Lookbook, where your vision of beauty comes to life!
           Here, you’ll discover an array of breathtaking makeup looks crafted by
           us, each designed to help you shine on your special day.
           We understand how important it is to feel perfect, and our creations
           are tailored to reflect your unique style, preferences, and
           traditions. As you explore these stunning transformations, imagine the
           possibilities for your own look. 
-        </p>
-        <p className="font-mont text-[16px] mb-[60px] w-3/4 text-justify">
           Let us be part of your journey to
           perfection—your dream look awaits!
         </p>

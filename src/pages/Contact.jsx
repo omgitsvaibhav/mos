@@ -10,16 +10,14 @@ const Contact = () => {
         <h1 className="font-playfair font-bold text-[72px] mb-[27px]">
           Contact Us
         </h1>
-        <p className="font-mont text-[16px] text-justify w-3/4">
-          We’d love to connect with you! Contact us to schedule a call, request
+        <p className="font-mont text-[16px] text-justify w-3/4 mb-[60px]">
+        We’d love to connect with you! Contact us to schedule a call, request
           a personalized quotation, or address any inquiries you may have.
           Please note that our quotes are tailored specifically for each
           wedding, taking into account your location, timeline, and the services
           you need.
           Every makeover we create is uniquely designed to reflect your
           individual style.
-        </p>
-        <p className="font-mont text-[16px] text-justify w-3/4 mb-[60px]">
           Reach out to us using the contact details below, and
           let’s begin the journey to your perfect look!
         </p>

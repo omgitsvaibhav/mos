@@ -9,14 +9,12 @@ const Service = () => {
         <h1 className="font-playfair font-bold text-[72px] mb-[27px]">
           Our Services
         </h1>
-        <p className="font-mont text-[16px] text-justify w-3/4">
-          From luxury weddings and high-fashion projects to exclusive makeup
+        <p className="font-mont text-[16px] mb-[55px] w-3/4 text-justify">
+        From luxury weddings and high-fashion projects to exclusive makeup
           workshops and private lessons, our expertise covers a wide range of
           beauty needs. At MakeoversbySukanya, we specialize in providing
           on-site makeup and hairstyling services, offering convenience and
           flexibility for our clients wherever they need us.
-        </p>
-        <p className="font-mont text-[16px] mb-[55px]">
           Explore our services below to see how we can help you achieve your
           perfect look.
         </p>

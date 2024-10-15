@@ -67,21 +67,27 @@
     transform: scale(1.1);
   }
 
-  .lookbook-item:last-child img {
+  /*.lookbook-item:last-child img {
     height: 405px;
     object-position: 50% 35%;
   }
 
-  .lookbook-item:nth-last-child(2) img {
-    height: 500px;
-  }
+  .lookbook-item:nth-last-child(3) img {
+    height: 609px;
+  } */
 
-  .lookbook-item:nth-child(8) img {
-    height: 526px;
-  }
-  .lookbook-item:nth-child(7) img {
+  /* .lookbook-item:nth-child(5) img {
     height: 500px;
-  }
+  } */
+  .lookbook-item:nth-child(5) img {
+    height: 514px;
+  }  
+  /* .lookbook-item:nth-child(8) img {
+    height: 500px;
+  } */
+  .lookbook-item:nth-child(13) img {
+    height: 497.5px;
+  }  
 
 }
 

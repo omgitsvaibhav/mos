@@ -4,8 +4,21 @@ import TestimonialSlider from "../components/Slider";
 const Home = () => {
   return (
     <section className="animate-fadeIn">
-      <section className="flex justify-center items-center relative h-[830px] bg-home bg-cover w-full bg-[center_top_-10rem]">
-        <div className="absolute flex flex-col justify-center items-center w-full top-[175px]">
+      <section className="relative h-[830px] w-full overflow-hidden">
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover"
+        autoPlay
+        loop
+        muted
+        controls={false}
+        playsInline
+      >
+        <source src="/home/vid.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div className="absolute inset-0 bg-black bg-opacity-50" />
+      <div className="relative z-10 flex flex-col justify-center items-center h-full">
+        <div className="flex flex-col justify-center items-center w-full">
           <h1 className="font-playfair font-black text-white text-[96px]">
             Makeovers by Sukanya
           </h1>
@@ -15,11 +28,12 @@ const Home = () => {
         </div>
         <Link
           to='/contact'
-          className="button-hover absolute font-playfair font-bold text-[24px] text-[#543737] w-[172px] h-[48px] text-center bg-[#faeae4] top-[610px] py-1"
+          className="button-hover font-playfair font-bold text-[24px] text-[#543737] w-[172px] h-[48px] text-center bg-[#faeae4] mt-16 py-1"
         >
           Contact Us
         </Link>
-      </section>
+      </div>
+    </section>
       <section className="h-[450px] w-full mb-12">
         <h1 className="font-playfair text-[48px] font-bold mb-[57px] mt-[40px] text-center">
           Awards
@@ -59,19 +73,19 @@ const Home = () => {
         <div className="flex flex-row w-full justify-center items-center mb-[40px]">
           <figure className="relative group">
             <img src="/home/lookbook1.JPG" alt="lookbook 1" className="w-[273px] h-[273px] object-cover object-center mx-[24px]"/>
-            <figcaption className="absolute w-[273px] py-2 pl-4 text-left bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The Delicate floral bride - a subtle beauty</figcaption>
+            <figcaption className="absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The Delicate floral bride - a subtle beauty</figcaption>
           </figure>
           <figure className="relative group">
             <img src="/home/lookbook2.jpg" alt="lookbook 2" className="w-[273px] h-[273px] object-cover object-right mx-[24px]"/>
-            <figcaption className="absolute w-[273px] py-2 pl-4 text-left bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The Regal Bride - an absolute royalty</figcaption>
+            <figcaption className="absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The Regal Bride - an absolute royalty</figcaption>
           </figure>
           <figure className="relative group">
             <img src="/home/lookbook3.JPG" alt="lookbook 3" className="w-[273px] h-[273px] object-cover mx-[24px]"/>
-            <figcaption className="absolute w-[273px] py-2 pl-4 text-left bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The perfect sultry Bride - a timeless allure</figcaption>
+            <figcaption className="absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The perfect sultry Bride - a timeless allure</figcaption>
           </figure>
           <figure className="relative group">
             <img src="/home/lookbook4.JPG" alt="lookbook 4" className="w-[273px] h-[273px] object-cover object-center mx-[24px]"/>
-            <figcaption className="absolute w-[273px] py-2 pl-4 text-left bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The fresh dewy Bride - A classic charm</figcaption>
+            <figcaption className="absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The fresh dewy Bride - A classic charm</figcaption>
           </figure>
         </div>
         <Link to='/lookbook' className="font-playfair font-bold text-[20px] other-button-hover text-center h-[49px] w-[232px] bg-[#de919b] py-2 mb-[60px]">View Full Lookbook</Link>
