@@ -19,6 +19,16 @@ export default {
         'service': "url('/service/header.png')",
         'lookbook': "url('/lookbook/header.png')",
         'contact': "url('/contact/header.png')"
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": {
+            opacity: "0",
+          },
+          "100%": {
+            opacity: "1",
+          },
+        },
       }
       // backgroundImage: {
       //   "gradient-colour": "linear-gradient(57.5deg, #1c1c1c 50%, #272727 50%)",

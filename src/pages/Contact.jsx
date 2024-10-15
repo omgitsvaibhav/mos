@@ -3,7 +3,7 @@ import { PhoneCallIcon } from "lucide-react";
 
 const Contact = () => {
   return (
-    <>
+    <section className="animate-fadeIn">
       <section className="bg-contact h-[600px] w-full bg-cover bg-[center_top_-30rem] relative" />
       <div className="page-header-gradient" />
       <section className="px-[76px] bg-white mb-[90px]">
@@ -58,7 +58,7 @@ const Contact = () => {
           </div> */}
         </div>
       </section>
-    </>
+    </section>
   );
 };
 

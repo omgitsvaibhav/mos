@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
     return (
-        <>
+        <section className="animate-fadeIn">
         <section className="bg-about page-header"/>
         <div className="absolute top-[400px] h-[200px] inset-0 bg-gradient-to-b from-transparent to-[#f9ebeb]"/>
         <section className="px-[80px] bg-[#f9ebeb] pb-[160px]">
@@ -21,7 +21,7 @@ const About = () => {
                 <img src="/home/header.jpg" alt="sukanya" className="object-cover w-[740px] h-[675px]"/>
             </div>
         </section>
-        </>
+        </section>
     )
 }
 

@@ -13,7 +13,7 @@ const Service = () => {
   }, []);
 
   return (
-    <>
+    <section className="animate-fadeIn">
       <section className="bg-lookbook h-[600px] w-full bg-cover bg-[center_top_-40rem] relative" />
       <div className="page-header-gradient" />
       <section className="grid px-[76px] bg-white mb-[95px]">
@@ -47,7 +47,7 @@ const Service = () => {
           Contact Us
         </Link>
       </section>
-    </>
+    </section>
   );
 };
 

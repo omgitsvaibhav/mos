@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Service = () => {
   return (
-    <>
+    <section className="animate-fadeIn">
       <section className="bg-service page-header" />
       <div className="page-header-gradient" />
       <section className="px-[76px] bg-white pb-[90px]">
@@ -114,8 +114,8 @@ const Service = () => {
           </div>
         </div>
       </section>
-      
-    </>
+
+    </section>
   );
 };
 

@@ -3,7 +3,7 @@ import TestimonialSlider from "../components/Slider";
 
 const Home = () => {
   return (
-    <>
+    <section className="animate-fadeIn">
       <section className="flex justify-center items-center relative h-[830px] bg-home bg-cover w-full bg-[center_top_-10rem]">
         <div className="absolute flex flex-col justify-center items-center w-full top-[175px]">
           <h1 className="font-playfair font-black text-white text-[96px]">
@@ -125,7 +125,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-    </>
+    </section>
   );
 }; 
 
