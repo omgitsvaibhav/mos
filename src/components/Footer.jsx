@@ -46,8 +46,8 @@ const Footer = () => {
             </div>
             <div>
             <p className="font-mont font-bold text-[16px] text-white">Email Us</p>
-              <Link to="mailto:manager@mosbeauty.in" target="blank" className="font-mont footer-link">
-              manager@mosbeauty.in
+              <Link to="mailto:vaish.manerikar@gmail.com" target="blank" className="font-mont footer-link">
+              vaish.manerikar@gmail.com
               </Link>
             </div>
           </div>

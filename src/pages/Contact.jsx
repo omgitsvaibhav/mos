@@ -10,16 +10,18 @@ const Contact = () => {
         <h1 className="font-playfair font-bold text-[72px] mb-[27px]">
           Contact Us
         </h1>
-        <p className="font-mont text-[16px]">
-          Schedule a date, request a quotation, or address any
-          inquiries you may have with us. Please note, our
+        <p className="font-mont text-[16px] text-justify w-3/4">
+          We’d love to connect with you! Contact us to schedule a call, request
+          a personalized quotation, or address any inquiries you may have.
+          Please note that our quotes are tailored specifically for each
+          wedding, taking into account your location, timeline, and the services
+          you need.
+          Every makeover we create is uniquely designed to reflect your
+          individual style.
         </p>
-        <p className="font-mont text-[16px]">
-          quotations are personalized for each wedding, considering the
-          location, your schedule, and the services
-        </p>
-        <p className="font-mont text-[16px] mb-[60px]">
-          required. Every makevoer we design is uniquely tailored to you.
+        <p className="font-mont text-[16px] text-justify w-3/4 mb-[60px]">
+          Reach out to us using the contact details below, and
+          let’s begin the journey to your perfect look!
         </p>
         <div className="flex justify-evenly items-center bg-[#F9EBEB] font-mont text-[16px] py-12">
           <Link to="https://wa.me/message/U4OU4KSH7NAFG1" target="blank">
@@ -28,13 +30,16 @@ const Contact = () => {
 
           <div className="h-[100px] w-[0.8px] bg-[#fda9a9]"></div>
 
-          <Link to="mailto:manager@mosbeauty.in" target="blank">
+          <Link to="mailto:vaish.manerikar@gmail.com" target="blank">
             <img src="/assets/email.png" alt="email" className="w-14 h-12" />
           </Link>
 
           <div className="h-[100px] w-[0.8px] bg-[#fda9a9]"></div>
 
-          <Link to="https://www.instagram.com/makeoversbysukanya/?igsh=bGU0Y2Y4cGV2ejIw" target="blank">
+          <Link
+            to="https://www.instagram.com/makeoversbysukanya/?igsh=bGU0Y2Y4cGV2ejIw"
+            target="blank"
+          >
             <img
               src="/assets/Insta.png"
               alt="instagram"

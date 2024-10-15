@@ -59,19 +59,19 @@ const Home = () => {
         <div className="flex flex-row w-full justify-center items-center mb-[40px]">
           <figure className="relative group">
             <img src="/home/lookbook1.JPG" alt="lookbook 1" className="w-[273px] h-[273px] object-cover object-center mx-[24px]"/>
-            <figcaption className="absolute w-[273px] py-2 pl-4 text-left bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">Makeup & Hair for Floral Shoot in Goa</figcaption>
+            <figcaption className="absolute w-[273px] py-2 pl-4 text-left bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The Delicate floral bride - a subtle beauty</figcaption>
           </figure>
           <figure className="relative group">
             <img src="/home/lookbook2.jpg" alt="lookbook 2" className="w-[273px] h-[273px] object-cover object-right mx-[24px]"/>
-            <figcaption className="absolute w-[273px] py-2 pl-4 text-left bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">Makeup & Hair for Floral Shoot in Goa</figcaption>
+            <figcaption className="absolute w-[273px] py-2 pl-4 text-left bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The Regal Bride - an absolute royalty</figcaption>
           </figure>
           <figure className="relative group">
             <img src="/home/lookbook3.JPG" alt="lookbook 3" className="w-[273px] h-[273px] object-cover mx-[24px]"/>
-            <figcaption className="absolute w-[273px] py-2 pl-4 text-left bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">Makeup & Hair for Floral Shoot in Goa</figcaption>
+            <figcaption className="absolute w-[273px] py-2 pl-4 text-left bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The perfect sultry Bride - a timeless allure</figcaption>
           </figure>
           <figure className="relative group">
             <img src="/home/lookbook4.JPG" alt="lookbook 4" className="w-[273px] h-[273px] object-cover object-center mx-[24px]"/>
-            <figcaption className="absolute w-[273px] py-2 pl-4 text-left bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">Makeup & Hair for Floral Shoot in Goa</figcaption>
+            <figcaption className="absolute w-[273px] py-2 pl-4 text-left bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The fresh dewy Bride - A classic charm</figcaption>
           </figure>
         </div>
         <Link to='/lookbook' className="font-playfair font-bold text-[20px] other-button-hover text-center h-[49px] w-[232px] bg-[#de919b] py-2 mb-[60px]">View Full Lookbook</Link>
