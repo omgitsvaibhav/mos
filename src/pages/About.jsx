@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 const About = () => {
     return (
         <>
-        <section class="bg-about page-header"/>
-        <div class="absolute top-[400px] h-[200px] inset-0 bg-gradient-to-b from-transparent to-[#f9ebeb]"/>
+        <section className="bg-about page-header"/>
+        <div className="absolute top-[400px] h-[200px] inset-0 bg-gradient-to-b from-transparent to-[#f9ebeb]"/>
         <section className="px-[80px] bg-[#f9ebeb] pb-[160px]">
             <h1 className="font-playfair font-bold text-[72px] mb-[41px]">About Us</h1>
             <div className="grid grid-cols-2 gap-[82px]">

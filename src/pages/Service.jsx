@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 const Service = () => {
     return (
         <>
-        <section class="bg-service page-header"/>
-        <div class="page-header-gradient"/>
+        <section className="bg-service page-header"/>
+        <div className="page-header-gradient"/>
         <section className="px-[76px] bg-white pb-[90px]">
             <h1 className="font-playfair font-bold text-[72px] mb-[27px]">Our Services</h1>
             <p className="font-mont text-[16px]">We offer freelance and on-location makeup services, meaning you can book me almost anywhere!</p>

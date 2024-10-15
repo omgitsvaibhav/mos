@@ -4,8 +4,8 @@ import { PhoneCallIcon } from "lucide-react";
 const Contact = () => {
   return (
     <>
-      <section class="bg-contact h-[600px] w-full bg-cover bg-[center_top_-30rem] relative" />
-      <div class="page-header-gradient" />
+      <section className="bg-contact h-[600px] w-full bg-cover bg-[center_top_-30rem] relative" />
+      <div className="page-header-gradient" />
       <section className="px-[76px] bg-white mb-[90px]">
         <h1 className="font-playfair font-bold text-[72px] mb-[27px]">
           Contact Us
@@ -22,19 +22,19 @@ const Contact = () => {
           required. Every makevoer we design is uniquely tailored to you.
         </p>
         <div className="flex justify-evenly items-center bg-[#F9EBEB] font-mont text-[16px] py-12">
-          <Link to="https://wa.me/message/U4OU4KSH7NAFG1">
+          <Link to="https://wa.me/message/U4OU4KSH7NAFG1" target="blank">
             <img src="/assets/wa.png" alt="whatsapp" className="w-14 h-14" />
           </Link>
 
           <div className="h-[100px] w-[0.8px] bg-[#fda9a9]"></div>
 
-          <Link to="mailto:manager@mosbeauty.in">
+          <Link to="mailto:manager@mosbeauty.in" target="blank">
             <img src="/assets/email.png" alt="email" className="w-14 h-12" />
           </Link>
 
           <div className="h-[100px] w-[0.8px] bg-[#fda9a9]"></div>
 
-          <Link to="https://www.instagram.com/makeoversbysukanya/?igsh=bGU0Y2Y4cGV2ejIw">
+          <Link to="https://www.instagram.com/makeoversbysukanya/?igsh=bGU0Y2Y4cGV2ejIw" target="blank">
             <img
               src="/assets/Insta.png"
               alt="instagram"

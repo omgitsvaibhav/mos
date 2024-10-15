@@ -14,8 +14,8 @@ const Service = () => {
 
   return (
     <>
-      <section class="bg-lookbook h-[600px] w-full bg-cover bg-[center_top_-40rem] relative" />
-      <div class="page-header-gradient" />
+      <section className="bg-lookbook h-[600px] w-full bg-cover bg-[center_top_-40rem] relative" />
+      <div className="page-header-gradient" />
       <section className="grid px-[76px] bg-white mb-[95px]">
         <h1 className="font-playfair font-bold text-[72px] mb-[20px]">
           Lookbook
