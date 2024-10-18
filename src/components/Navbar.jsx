@@ -11,9 +11,9 @@ const Navbar = () => {
   return (
     <>
       <nav className="w-full h-[70px] lg:h-[90px] fixed top-0 bg-[#1e1e1e] bg-opacity-85 flex justify-between items-center px-[26px] lg:px-[75px] z-40 shadow-[0_5px_5px_rgba(30,30,30,0.25)]">
-        <h4 className="font-playfair font-black text-[#ffffff] text-[32px] lg:text-[40px] text-center">
+        <Link to="/" className="font-playfair font-black text-[#ffffff] text-[32px] lg:text-[40px] text-center">
           MOS
-        </h4>
+        </Link>
         <div className="lg:hidden" onClick={toggleSidebar}>
           <img src="/assets/menu.png" alt="menu" width={25} height={25} />
         </div>
