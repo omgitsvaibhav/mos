@@ -39,18 +39,18 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col justify-center">
             <p className="font-mont font-bold text-[20px] text-white">Contact</p>
             <div className="grid max-md:mt-[15px] lg:mt-[24px] space-y-[15px]">
               <div>
-                <p className="font-mont font-semibold text-[16px] text-white">Call Us</p>
-                <Link to="tel:+919370189427" className="font-mont footer-link-mobile lg:footer-link">
+                <p className="font-mont font-[450] lg:font-semibold text-[16px] text-white">Call Us</p>
+                <Link to="tel:+919370189427" className="font-mont font-[200] footer-link-mobile lg:footer-link">
                     +91 9370189427
                 </Link>
               </div>
               <div>
-              <p className="font-mont font-semibold text-[16px] text-white">Email Us</p>
-                <Link to="mailto:vaish.manerikar@gmail.com" target="blank" className="font-mont footer-link-mobile lg:footer-link">
+              <p className="font-mont font-[450] lg:font-semibold text-[16px] text-white">Email Us</p>
+                <Link to="mailto:vaish.manerikar@gmail.com" target="blank" className="font-mont font-[200] footer-link-mobile lg:footer-link">
                 vaish.manerikar@gmail.com
                 </Link>
               </div>
