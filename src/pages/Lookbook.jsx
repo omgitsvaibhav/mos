@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Service = () => {
   const [images, setImages] = useState([]);
@@ -7,7 +8,13 @@ const Service = () => {
   useEffect(() => {
     const imagePaths = [];
     for (let i = 1; i <= 19; i++) {
-      imagePaths.push(`/lookbook/lookbook (${i}).png`);
+      if ((i >= 8 && i <= 11) || i === 18) {
+        imagePaths.push(`/lookbook/lookbook (${i}).png`);
+      } else {
+        imagePaths.push(
+          `https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729267472/lookbook_${i}.png`
+        );
+      }
     }
     setImages(imagePaths);
   }, []);
@@ -21,20 +28,19 @@ const Service = () => {
           Lookbook
         </h1>
         <p className="font-mont text-[16px] mb-[60px] w-3/4 text-justify">
-        Welcome to our Lookbook, where your vision of beauty comes to life!
+          Welcome to our Lookbook, where your vision of beauty comes to life!
           Here, you’ll discover an array of breathtaking makeup looks crafted by
-          us, each designed to help you shine on your special day.
-          We understand how important it is to feel perfect, and our creations
-          are tailored to reflect your unique style, preferences, and
-          traditions. As you explore these stunning transformations, imagine the
-          possibilities for your own look. 
-          Let us be part of your journey to
-          perfection—your dream look awaits!
+          us, each designed to help you shine on your special day. We understand
+          how important it is to feel perfect, and our creations are tailored to
+          reflect your unique style, preferences, and traditions. As you explore
+          these stunning transformations, imagine the possibilities for your own
+          look. Let us be part of your journey to perfection—your dream look
+          awaits!
         </p>
         <div className="lookbook-grid">
           {images.map((src, index) => (
             <div key={index} className="lookbook-item">
-              <img src={src} alt={`Lookbook ${index + 1}`} />
+              <LazyLoadImage src={src} alt={`Lookbook ${index + 1}`}/>
             </div>
           ))}
         </div>

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Service = () => {
   return (
@@ -44,7 +45,7 @@ const Service = () => {
                 Contact Us
               </Link>
             </div>
-            <img
+            <LazyLoadImage 
               className="child w-[480px] object-cover"
               src="/service/service 1.jpg"
               alt="service 1"
@@ -71,7 +72,7 @@ const Service = () => {
                 Contact Us
               </Link>
             </div>
-            <img
+            <LazyLoadImage 
               className="child w-[480px] object-cover object-top"
               src="/service/service 2.JPG"
               alt="service 2"
@@ -104,7 +105,7 @@ const Service = () => {
                 Contact Us
               </Link>
             </div>
-            <img
+            <LazyLoadImage 
               className="child w-[480px] object-cover"
               src="/home/service 3.JPG"
               alt="service 3"

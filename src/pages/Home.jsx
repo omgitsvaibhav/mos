@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import TestimonialSlider from "../components/Slider";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
         controls={false}
         playsInline
       >
-        <source src="/home/vid.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/dsy1vfp2c/video/upload/v1729270412/vid.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="absolute inset-0 bg-black bg-opacity-50" />
@@ -40,7 +41,7 @@ const Home = () => {
         </h1>
         <div className="flex justify-evenly flex-row items-center">
         <div className="grid gap-5">
-            <img
+            <LazyLoadImage 
               src="/home/award 1.png"
               alt="wed me good"
               className="h-[165px] w-[205px] place-self-center p-3"
@@ -54,7 +55,7 @@ const Home = () => {
           </div>
         <div className="h-[280px] border-l border-black"></div>
           <div className="grid gap-4">
-            <img
+            <LazyLoadImage 
               src="/home/wedmegood.png"
               alt="wed me good"
               className="h-[165px] w-[235px] place-self-center"
@@ -68,7 +69,7 @@ const Home = () => {
           </div>
           <div className="h-[280px] border-l border-black"></div>
           <div className="grid gap-4">
-            <img
+            <LazyLoadImage 
               src="/home/award.png"
               alt="award"
               className="h-[165px] w-[200px] place-self-center"
@@ -90,19 +91,19 @@ const Home = () => {
         <p className="font-mont text-[14px] text-center mb-[53px]">tailored to various bridal traditions and styles</p>
         <div className="flex flex-row w-full justify-center items-center mb-[40px]">
           <figure className="relative group">
-            <img src="/home/lookbook1.JPG" alt="lookbook 1" className="w-[273px] h-[273px] object-cover object-center mx-[24px]"/>
+            <LazyLoadImage  src="/home/lookbook1.JPG" alt="lookbook 1" className="w-[273px] h-[273px] object-cover object-center mx-[24px]"/>
             <figcaption className="absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The delicate floral bride - a subtle beauty</figcaption>
           </figure>
           <figure className="relative group">
-            <img src="/home/lookbook2.jpg" alt="lookbook 2" className="w-[273px] h-[273px] object-cover object-right mx-[24px]"/>
+            <LazyLoadImage  src="/home/lookbook2.jpg" alt="lookbook 2" className="w-[273px] h-[273px] object-cover object-right mx-[24px]"/>
             <figcaption className="absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The regal bride - an absolute royalty</figcaption>
           </figure>
           <figure className="relative group">
-            <img src="/home/lookbook3.JPG" alt="lookbook 3" className="w-[273px] h-[273px] object-cover mx-[24px]"/>
+            <LazyLoadImage  src="/home/lookbook3.JPG" alt="lookbook 3" className="w-[273px] h-[273px] object-cover mx-[24px]"/>
             <figcaption className="absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The perfect sultry bride - a timeless allure</figcaption>
           </figure>
           <figure className="relative group">
-            <img src="/home/lookbook4.JPG" alt="lookbook 4" className="w-[273px] h-[273px] object-cover object-center mx-[24px]"/>
+            <LazyLoadImage  src="/home/lookbook4.JPG" alt="lookbook 4" className="w-[273px] h-[273px] object-cover object-center mx-[24px]"/>
             <figcaption className="absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The fresh dewy bride - a classic charm</figcaption>
           </figure>
         </div>
@@ -138,19 +139,19 @@ const Home = () => {
         <h1 className="font-playfair text-[40px] font-bold text-[#343232] text-center mt-[55px] mb-[55px]">Services</h1>
         <div className="flex flex-row justify-around space-x-[90px] mb-[111px] h-[480px]">
           <div className="grid place-items-center h-[300px] px-[25px] pt-[25px] group bg-[#f9ebeb] bg-opacity-0 transition-all duration-500 ease-in-out hover:bg-opacity-100 transform hover:h-[430px] hover:shadow-[8px_8px_10px_0px_rgba(0,0,0,0.1)]">
-            <img alt="service 1" src="/home/service 1.JPG" className="rounded-full h-[200px] w-[200px] object-cover"/>
+            <LazyLoadImage  alt="service 1" src="/home/service 1.JPG" className="rounded-full h-[200px] w-[200px] object-cover"/>
             <p className="font-playfair text-[24px] mt-6">Makeup</p>
             <p className="font-mont text-[14px] text-center mb-[30px]">Flawless bridal makeup<br/>for destination weddings</p>
             <Link to="/service" className="bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 hover:bg-transparent hover:border-[1px] hover:border-[#90444d] hover:border-solid hover:text-[#90444d]">Know more</Link>
           </div>
           <div className="grid place-items-center h-[300px] px-[25px] pt-[25px] group bg-[#f9ebeb] bg-opacity-0 transition-all duration-500 ease-in-out hover:bg-opacity-100 transform hover:h-[430px] hover:shadow-[8px_8px_10px_0px_rgba(0,0,0,0.1)]">
-            <img src="/home/service 2.JPG" alt="service 2" className="rounded-full h-[200px] w-[200px] object-cover"/>
+            <LazyLoadImage  src="/home/service 2.JPG" alt="service 2" className="rounded-full h-[200px] w-[200px] object-cover"/>
             <p className="font-playfair text-[24px] mt-6">Hair Styling</p>
             <p className="font-mont text-[14px] text-center mb-[30px]">Gorgeous bridal hairstyling<br/>for your perfect look</p>
             <Link to="/service" className="bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 hover:bg-transparent hover:border-[1px] hover:border-[#90444d] hover:border-solid hover:text-[#90444d]">Know more</Link>
           </div>
           <div className="grid place-items-center h-[300px] px-[25px] pt-[25px] group bg-[#f9ebeb] bg-opacity-0 transition-all duration-500 ease-in-out hover:bg-opacity-100 transform hover:h-[430px] hover:shadow-[8px_8px_10px_0px_rgba(0,0,0,0.1)]">
-          <img src="/home/service 3.JPG" alt="service 3" className="rounded-full h-[200px] w-[200px] object-cover object-top"/>
+          <LazyLoadImage  src="/home/service 3.JPG" alt="service 3" className="rounded-full h-[200px] w-[200px] object-cover object-top"/>
             <p className="font-playfair text-[24px] mt-6">Workshops</p>
             <p className="font-mont text-[14px] text-center mb-[30px]">Exclusive hands-on<br/>bridal makeup workshops</p>
             <Link to="/service" className="bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 hover:bg-transparent hover:border-[1px] hover:border-[#90444d] hover:border-solid hover:text-[#90444d]">Know more</Link>

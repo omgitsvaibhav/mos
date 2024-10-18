@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const About = () => {
     return (
@@ -18,7 +19,7 @@ const About = () => {
                     </p>
                     <Link to='/contact' className="other-button-hover py-2 bg-[#de919b] text-center absolute bottom-0 left-0 w-[150px] h-[50px] font-playfair font-bold text-[20px]">Contact Us</Link>
                 </div>
-                <img src="/home/header.jpg" alt="sukanya" className="object-cover w-[740px] h-[720px]"/>
+                <LazyLoadImage  src="/home/header.jpg" alt="sukanya" className="object-cover w-[740px] h-[720px]"/>
             </div>
         </section>
         </section>

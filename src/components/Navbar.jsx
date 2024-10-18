@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -44,7 +45,7 @@ const Navbar = () => {
           <h4 className="font-playfair font-black text-[#ffffff] text-[32px] lg:text-[40px] text-center">
             MOS
           </h4>
-          <img
+          <img 
             src="/assets/close.png"
             alt="close"
             onClick={toggleSidebar}
