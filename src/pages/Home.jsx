@@ -38,29 +38,47 @@ const Home = () => {
         <h1 className="font-playfair text-[48px] font-bold mb-[57px] mt-[40px] text-center">
           Awards
         </h1>
-        <div className="flex justify-center items-center space-x-14">
-          <div>
+        <div className="flex justify-evenly flex-row items-center">
+        <div className="grid gap-5">
+            <img
+              src="/home/award 1.png"
+              alt="wed me good"
+              className="h-[165px] w-[205px] place-self-center p-3"
+            />
+            <div>
+              <p className="text-center font-mont font-bold text-[14px]">
+              WEDDINGSUTRA
+              </p>
+              <p className="font-mont text-[14px] text-center">Best Bridal Makeup Artist in India - 2024</p>
+            </div>
+          </div>
+        <div className="h-[280px] border-l border-black"></div>
+          <div className="grid gap-4">
             <img
               src="/home/wedmegood.png"
               alt="wed me good"
-              className="h-[165px] w-[235px] m-[43px]"
+              className="h-[165px] w-[235px] place-self-center"
             />
-            <figcaption className="text-center font-mont font-bold text-[14px]">
-              WedMeGood
-            </figcaption>
-            <p className="font-mont text-[14px] text-center">Best Bridal Makeup Artist in Goa - 2023</p>
+            <div>
+              <p className="text-center font-mont font-bold text-[14px]">
+                WedMeGood
+              </p>
+              <p className="font-mont text-[14px] text-center">Best Bridal Makeup Artist in Goa - 2023</p>
+            </div>
           </div>
           <div className="h-[280px] border-l border-black"></div>
-          <div className="relative">
+          <div className="grid gap-4">
             <img
               src="/home/award.png"
               alt="award"
-              className="h-[250px] w-[320px] "
+              className="h-[165px] w-[200px] place-self-center"
             />
-            <figcaption className="text-center font-mont font-bold text-[14px]">
-              WEDDINGSUTRA
-            </figcaption>
-            <p className="font-mont text-[14px] text-center">Best Cocktail Makeup Artist in India - 2019</p>
+            <div>
+              <p className="text-center font-mont font-bold text-[14px]">
+                WEDDINGSUTRA
+              </p>
+              <p className="font-mont text-[14px] text-center">Best Cocktail Makeup Artist in India - 2019</p>
+            </div>
           </div>
         </div>
       </section>
@@ -73,19 +91,19 @@ const Home = () => {
         <div className="flex flex-row w-full justify-center items-center mb-[40px]">
           <figure className="relative group">
             <img src="/home/lookbook1.JPG" alt="lookbook 1" className="w-[273px] h-[273px] object-cover object-center mx-[24px]"/>
-            <figcaption className="absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The Delicate floral bride - a subtle beauty</figcaption>
+            <figcaption className="absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The delicate floral bride - a subtle beauty</figcaption>
           </figure>
           <figure className="relative group">
             <img src="/home/lookbook2.jpg" alt="lookbook 2" className="w-[273px] h-[273px] object-cover object-right mx-[24px]"/>
-            <figcaption className="absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The Regal Bride - an absolute royalty</figcaption>
+            <figcaption className="absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The regal bride - an absolute royalty</figcaption>
           </figure>
           <figure className="relative group">
             <img src="/home/lookbook3.JPG" alt="lookbook 3" className="w-[273px] h-[273px] object-cover mx-[24px]"/>
-            <figcaption className="absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The perfect sultry Bride - a timeless allure</figcaption>
+            <figcaption className="absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The perfect sultry bride - a timeless allure</figcaption>
           </figure>
           <figure className="relative group">
             <img src="/home/lookbook4.JPG" alt="lookbook 4" className="w-[273px] h-[273px] object-cover object-center mx-[24px]"/>
-            <figcaption className="absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The fresh dewy Bride - A classic charm</figcaption>
+            <figcaption className="absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The fresh dewy bride - a classic charm</figcaption>
           </figure>
         </div>
         <Link to='/lookbook' className="font-playfair font-bold text-[20px] other-button-hover text-center h-[49px] w-[232px] bg-[#de919b] py-2 mb-[60px]">View Full Lookbook</Link>
@@ -122,19 +140,19 @@ const Home = () => {
           <div className="grid place-items-center h-[300px] px-[25px] pt-[25px] group bg-[#f9ebeb] bg-opacity-0 transition-all duration-500 ease-in-out hover:bg-opacity-100 transform hover:h-[430px] hover:shadow-[8px_8px_10px_0px_rgba(0,0,0,0.1)]">
             <img alt="service 1" src="/home/service 1.JPG" className="rounded-full h-[200px] w-[200px] object-cover"/>
             <p className="font-playfair text-[24px] mt-6">Makeup</p>
-            <p className="font-mont text-[14px] text-center mb-[30px]">Bridal makeup, guest<br/>makeup, casual...</p>
+            <p className="font-mont text-[14px] text-center mb-[30px]">Flawless bridal makeup<br/>for destination weddings</p>
             <Link to="/service" className="bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 hover:bg-transparent hover:border-[1px] hover:border-[#90444d] hover:border-solid hover:text-[#90444d]">Know more</Link>
           </div>
           <div className="grid place-items-center h-[300px] px-[25px] pt-[25px] group bg-[#f9ebeb] bg-opacity-0 transition-all duration-500 ease-in-out hover:bg-opacity-100 transform hover:h-[430px] hover:shadow-[8px_8px_10px_0px_rgba(0,0,0,0.1)]">
             <img src="/home/service 2.JPG" alt="service 2" className="rounded-full h-[200px] w-[200px] object-cover"/>
             <p className="font-playfair text-[24px] mt-6">Hair Styling</p>
-            <p className="font-mont text-[14px] text-center mb-[30px]">Bridal hair styling, guest<br/>hair, and...</p>
+            <p className="font-mont text-[14px] text-center mb-[30px]">Gorgeous bridal hairstyling<br/>for your perfect look</p>
             <Link to="/service" className="bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 hover:bg-transparent hover:border-[1px] hover:border-[#90444d] hover:border-solid hover:text-[#90444d]">Know more</Link>
           </div>
           <div className="grid place-items-center h-[300px] px-[25px] pt-[25px] group bg-[#f9ebeb] bg-opacity-0 transition-all duration-500 ease-in-out hover:bg-opacity-100 transform hover:h-[430px] hover:shadow-[8px_8px_10px_0px_rgba(0,0,0,0.1)]">
           <img src="/home/service 3.JPG" alt="service 3" className="rounded-full h-[200px] w-[200px] object-cover object-top"/>
             <p className="font-playfair text-[24px] mt-6">Workshops</p>
-            <p className="font-mont text-[14px] text-center mb-[30px]">Learn with Sukanya the<br/>best techniques...</p>
+            <p className="font-mont text-[14px] text-center mb-[30px]">Exclusive hands-on<br/>bridal makeup workshops</p>
             <Link to="/service" className="bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 hover:bg-transparent hover:border-[1px] hover:border-[#90444d] hover:border-solid hover:text-[#90444d]">Know more</Link>
           </div>
         </div>

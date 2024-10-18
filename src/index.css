@@ -24,6 +24,12 @@
     transition: font-weight 0.5s ease-in-out;
   }
 
+  .navbar-link-mobile {
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+  }
+
   .navbar-link:hover{
     font-weight: 600;
     cursor: pointer;
@@ -42,6 +48,12 @@
     font-size: 16px;
     font-weight: 400;
     transition: font-weight 0.5s ease-in-out;
+  }
+
+  .footer-link-mobile {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
   }
 
   .footer-link:hover{
