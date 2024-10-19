@@ -21,13 +21,13 @@ const Service = () => {
 
   return (
     <section className="animate-fadeIn">
-      <section className="bg-lookbook h-[600px] w-full bg-cover bg-[center_top_-40rem] relative" />
+      <section className="bg-lookbook h-[310px] lg:h-[600px] w-full bg-cover bg-[center_top_-40rem] lg:bg-[center_top_-40rem] relative" />
       <div className="page-header-gradient" />
-      <section className="grid px-[76px] bg-white mb-[95px]">
-        <h1 className="font-playfair font-bold text-[72px] mb-[20px]">
+      <section className="grid px-[15px] lg:px-[76px] bg-white pb-[38px] lg:pb-[95px]">
+        <h1 className="font-playfair font-bold text-[32px] lg:text-[72px] mb-[20px]">
           Lookbook
         </h1>
-        <p className="font-mont text-[16px] mb-[60px] w-3/4 text-justify">
+        <p className="font-mont text-[14px] lg:text-[16px] mb-[50px] lg:mb-[60px] lg:w-3/4 text-justify">
           Welcome to our Lookbook, where your vision of beauty comes to life!
           Here, you’ll discover an array of breathtaking makeup looks crafted by
           us, each designed to help you shine on your special day. We understand
@@ -46,7 +46,7 @@ const Service = () => {
         </div>
         <Link
           to="/contact"
-          className="font-playfair font-bold text-[20px] h-[50px] w-[180px] other-button-hover py-2 bg-[#de919b] text-center p-8 justify-self-center"
+          className="font-playfair font-bold text-[16px] lg:text-[20px] h-[35px] w-[105px] lg:h-[50px] lg:w-[180px] other-button-hover py-1 lg:py-2 bg-[#de919b] text-center justify-self-center"
         >
           Contact Us
         </Link>

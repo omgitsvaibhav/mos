@@ -88,9 +88,6 @@
     height: 609px;
   } */
 
-  /* .lookbook-item:nth-child(5) img {
-    height: 500px;
-  } */
   .lookbook-item:nth-child(5) img {
     height: 514px;
   }  
@@ -100,6 +97,28 @@
   .lookbook-item:nth-child(13) img {
     height: 497.5px;
   }  
+
+  @media only screen and (max-width: 768px) {
+    .lookbook-grid {
+      column-count: 2;
+      column-gap: 15px;
+      margin-bottom: 38px;
+    }
+    .lookbook-item img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .lookbook-item:nth-child(5) img {
+      height: 326px;
+    } 
+    .lookbook-item:nth-child(13) img {
+      object-position: 70% 35%;
+      height: 400px;
+    } 
+  }
 
 }
 
@@ -125,10 +144,10 @@
   }
 
   .page-header {
-    @apply h-[600px] w-full bg-cover bg-[center_top_-20rem] relative
+    @apply h-[310px] lg:h-[600px] w-full bg-cover lg:bg-[center_top_-20rem] relative
   }
 
   .page-header-gradient{
-    @apply absolute top-[400px] h-[200px] inset-0 bg-gradient-to-b from-transparent to-white
+    @apply absolute top-[210px] h-[100px] lg:top-[400px] lg:h-[200px] inset-0 bg-gradient-to-b from-transparent to-white
   }
 }

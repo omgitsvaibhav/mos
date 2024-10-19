@@ -6,11 +6,11 @@ const Service = () => {
     <section className="animate-fadeIn">
       <section className="bg-service page-header" />
       <div className="page-header-gradient" />
-      <section className="px-[76px] bg-white pb-[90px]">
-        <h1 className="font-playfair font-bold text-[72px] mb-[27px]">
+      <section className="px-[15px] lg:px-[76px] bg-white pb-[60px] lg:pb-[90px]">
+        <h1 className="font-playfair font-bold text-[32px] lg:text-[72px] mb-[27px]">
           Our Services
         </h1>
-        <p className="font-mont text-[16px] mb-[55px] w-3/4 text-justify">
+        <p className="font-mont text-[14px] lg:text-[16px] mb-[55px] lg:w-3/4 text-justify">
         From luxury weddings and high-fashion projects to exclusive makeup
           workshops and private lessons, our expertise covers a wide range of
           beauty needs. At MakeoversbySukanya, we specialize in providing
@@ -19,11 +19,11 @@ const Service = () => {
           Explore our services below to see how we can help you achieve your
           perfect look.
         </p>
-        <div className="grid gap-[67px]">
-          <div className="flex flex-row justify-between bg-[#f9ebeb] relative parent max-h-[450px]">
-            <div className="flex flex-col relative p-10 w-[850px]">
-              <h2 className="font-playfair text-[48px] mb-4">Make Up</h2>
-              <p className="text-justify font-mont text-[14px] mb-10">
+        <div className="grid place-items-center gap-y-[44px] lg:gap-[67px]">
+          <div className="flex flex-col-reverse lg:flex-row lg:justify-between bg-[#f9ebeb] relative parent max-md:w-[352px]">
+            <div className="flex flex-col justify-center lg:space-y-8 relative lg:py-10 lg:pl-10 lg:w-[850px] max-md:mb-[40px] max-md:px-[24px]">
+              <h2 className="font-playfair text-[24px] max-md:mb-[12px] lg:text-[48px]">Make Up</h2>
+              <p className="text-justify font-mont text-[14px] max-md:mb-[37px]">
                 We’re passionate about weddings and deeply honored to be part of
                 such a cherished moment in your life. With over a decade of
                 experience in luxury destination weddings, I bring refined
@@ -40,21 +40,21 @@ const Service = () => {
               </p>
               <Link
                 to="/contact"
-                className="font-playfair font-bold text-[20px] h-[50px] w-[150px] other-button-hover py-2 bg-[#de919b] text-center"
+                className="w-[105px] h-[35px] text-[16px] py-1 font-playfair font-bold lg:text-[20px] lg:h-[50px] lg:w-[150px] other-button-hover lg:py-2 bg-[#de919b] text-center"
               >
                 Contact Us
               </Link>
             </div>
             <LazyLoadImage 
-              className="child w-[480px] object-cover"
+              className="w-[352px] max-md:h-[305px] lg:child lg:w-[480px] object-cover max-md:mb-[24px]"
               src="/service/service 1.jpg"
               alt="service 1"
             />
           </div>
-          <div className="flex flex-row justify-between bg-[#f9ebeb] relative parent max-h-[400px]">
-            <div className="flex flex-col relative p-10 w-[850px]">
-              <h2 className="font-playfair text-[48px] mb-4">Hair Styling</h2>
-              <p className="text-justify font-mont text-[14px] mb-10">
+          <div className="flex flex-col-reverse lg:flex-row lg:justify-between bg-[#f9ebeb] relative parent max-md:w-[352px] lg:max-h-[420px]">
+            <div className="flex flex-col justify-center lg:space-y-8 relative lg:py-10 lg:pl-10 lg:w-[850px] max-md:mb-[40px] max-md:px-[24px]">
+              <h2 className="font-playfair text-[24px] max-md:mb-[12px] lg:text-[48px]">Hair Styling</h2>
+              <p className="text-justify font-mont text-[14px] max-md:mb-[37px]">
                 Hairstyling is an art, and we take great pride in creating
                 beautiful styles that complement your bridal look. We are here
                 to bring our decade long expertise to design everything from
@@ -67,21 +67,21 @@ const Service = () => {
               </p>
               <Link
                 to="/contact"
-                className="font-playfair font-bold text-[20px] h-[50px] w-[150px] other-button-hover py-2 bg-[#de919b] text-center"
+                className="w-[105px] h-[35px] text-[16px] py-1 font-playfair font-bold lg:text-[20px] lg:h-[50px] lg:w-[150px] other-button-hover lg:py-2 bg-[#de919b] text-center"
               >
                 Contact Us
               </Link>
             </div>
             <LazyLoadImage 
-              className="child w-[480px] object-cover object-top"
+              className="w-[352px] max-md:h-[305px] lg:child lg:w-[480px] object-cover max-md:mb-[24px] object-top"
               src="/service/service 2.JPG"
               alt="service 2"
             />
           </div>
-          <div className="flex flex-row justify-between bg-[#f9ebeb] relative parent max-h-[450px]">
-            <div className="flex flex-col relative p-10 w-[850px]">
-              <h2 className="font-playfair text-[48px] mb-4">Workshops</h2>
-              <p className="text-justify font-mont text-[14px] mb-10">
+          <div className="flex flex-col-reverse lg:flex-row lg:justify-between bg-[#f9ebeb] relative parent max-md:w-[352px] lg:max-h-[480px]">
+            <div className="flex flex-col justify-center lg:space-y-8 relative lg:py-10 lg:pl-10 lg:w-[850px] max-md:mb-[40px] max-md:px-[24px]">
+              <h2 className="font-playfair text-[24px] max-md:mb-[12px] lg:text-[48px]">Workshops</h2>
+              <p className="text-justify font-mont text-[14px] max-md:mb-[37px]">
                 Our exclusive makeup workshops cater to both beginners and
                 advanced learners, offering a comprehensive learning experience
                 for all levels. For beginners, we cover the
@@ -100,13 +100,13 @@ const Service = () => {
               </p>
               <Link
                 to="/contact"
-                className="font-playfair font-bold text-[20px] h-[50px] w-[150px] other-button-hover py-2 bg-[#de919b] text-center"
+                className="w-[105px] h-[35px] text-[16px] py-1 font-playfair font-bold lg:text-[20px] lg:h-[50px] lg:w-[150px] other-button-hover lg:py-2 bg-[#de919b] text-center"
               >
                 Contact Us
               </Link>
             </div>
             <LazyLoadImage 
-              className="child w-[480px] object-cover"
+              className="w-[352px] max-md:h-[305px] lg:child lg:w-[480px] object-cover max-md:mb-[24px] object-[center_-3rem] lg:object-top"
               src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729330685/service_3.jpg"
               alt="service 3"
             />

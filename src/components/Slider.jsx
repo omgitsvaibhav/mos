@@ -22,6 +22,25 @@ const slides = [
   },
 ];
 
+const mobileSlides = [
+  {
+    name: "Abha Sahay",
+    content: "Sukanya was extremely punctual and very accommodating and did a great job executing my vision for the wedding. She is a true pro and knows exactly how to bring someone's vision to life."
+  },
+  {
+    name: "Surabhi Singh",
+    content: "Makeovers by Sukanya Team is an absolute dream to have for your most special moments! They are magicians with makeup brushes and tools! Sukanya not only nailed the exact look."
+  },
+  {
+    name: "Mallika Bhandarkar",
+    content: "Sukanya and team are the best! They’re efficient and they do their best to make the bride feel comfortable and look the best! My mehendi make up was talked about by everyone."
+  },
+  {
+    name: "Shruti Gangwani",
+    content: "Sukanya and her team created a dream look for my wedding in Goa, everything about the bridal look she created for me was magical even for the groom the look was flawless. "
+  },
+];
+
 const TestimonialSlider = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
   
@@ -43,14 +62,14 @@ const TestimonialSlider = () => {
       });
   
     return (
-      <div className="bg-[#F9EBEB] py-[50px] px-[294px]">
-        <h1 className="font-playfair text-[48px] font-bold text-center text-[#343232]">Testimonials</h1>
-        <p className="font-mont text-center text-[16px] mb-12">
-          See what our clients have to say on <Link className="text-[#E65757] underline" to="https://www.wedmegood.com/profile/MAC-Makeup-Artist-13664#:~:text=A%20fabulous%20attitude%20and%20A,reflects%20in%20all%20her%20work" target='blank'>WedMeGood</Link>
+      <div className="bg-[#F9EBEB] py-[50px] lg:px-[294px]">
+        <h1 className="font-playfair text-[26px] lg:text-[48px] font-bold text-center text-[#343232]">Testimonials</h1>
+        <p className="font-mont text-center text-[14px] lg:text-[16px] mb-7 lg:mb-12">
+          See what our clients have to say on <br className='lg:hidden'/> <Link className="text-[#E65757] underline" to="https://www.wedmegood.com/profile/MAC-Makeup-Artist-13664#:~:text=A%20fabulous%20attitude%20and%20A,reflects%20in%20all%20her%20work" target='blank'>WedMeGood</Link>
         </p>
         
-        <div className="w-full mx-auto relative overflow-hidden" {...swipeHandlers}>
-          <button onClick={handlePrev} className="absolute -left-3 top-1/2 transform -translate-y-1/2 z-10">
+        <div className="max-md:w-[350px] lg:w-full mx-auto relative overflow-hidden" {...swipeHandlers}>
+          <button onClick={handlePrev} className="absolute left-1 lg:-left-3 top-1/2 transform -translate-y-1/2 z-10">
             <ChevronLeft size={40} className="text-[#343232]" />
           </button>
           
@@ -61,8 +80,17 @@ const TestimonialSlider = () => {
             }}
           >
             {slides.map((slide, index) => (
-              <div key={index} className="w-full px-10">
+              <div key={index} className="max-md:hidden lg:w-full lg:px-10">
                 <div  key={index} className="bg-white rounded-2xl w-[852px] p-8">
+                  <p className="font-mont text-[14px] font-bold mb-4">{slide.name} says,</p>
+                  <p className="font-mont text-[14px] text-justify">{slide.content}</p>
+                </div>
+              </div>
+            ))}
+
+            {mobileSlides.map((slide, index) => (
+              <div key={index} className="w-full px-[45px] lg:hidden">
+                <div  key={index} className="bg-white rounded-2xl w-[260px] p-6">
                   <p className="font-mont text-[14px] font-bold mb-4">{slide.name} says,</p>
                   <p className="font-mont text-[14px] text-justify">{slide.content}</p>
                 </div>
@@ -70,12 +98,12 @@ const TestimonialSlider = () => {
             ))}
           </div>
           
-          <button onClick={handleNext} className="absolute -right-3 top-1/2 transform -translate-y-1/2 z-10">
+          <button onClick={handleNext} className="absolute right-1 lg:-right-3 top-1/2 transform -translate-y-1/2 z-10">
             <ChevronRight size={40} className="text-[#343232]" />
           </button>
         </div>
         
-        <div className="flex justify-center mt-10 space-x-2 mb-6">
+        <div className="flex justify-center mt-12 space-x-2 mb-6">
           {slides.map((_, index) => (
             <div
               key={index}
