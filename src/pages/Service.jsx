@@ -19,9 +19,9 @@ const Service = () => {
           Explore our services below to see how we can help you achieve your
           perfect look.
         </p>
-        <div className="grid place-items-center gap-y-[44px] lg:gap-[67px]">
+        <div className="grid gap-y-[44px] lg:gap-[67px]">
           <div className="flex flex-col-reverse lg:flex-row lg:justify-between bg-[#f9ebeb] relative parent max-md:w-[352px]">
-            <div className="flex flex-col justify-center lg:space-y-8 relative lg:py-10 lg:pl-10 lg:w-[850px] max-md:mb-[40px] max-md:px-[24px]">
+            <div className="flex flex-col justify-center lg:space-y-8 relative lg:py-10 lg:px-10 lg:w-full max-md:mb-[40px] max-md:px-[24px]">
               <h2 className="font-playfair text-[24px] max-md:mb-[12px] lg:text-[48px]">Make Up</h2>
               <p className="text-justify font-mont text-[14px] max-md:mb-[37px]">
                 We’re passionate about weddings and deeply honored to be part of
@@ -52,7 +52,7 @@ const Service = () => {
             />
           </div>
           <div className="flex flex-col-reverse lg:flex-row lg:justify-between bg-[#f9ebeb] relative parent max-md:w-[352px] lg:max-h-[420px]">
-            <div className="flex flex-col justify-center lg:space-y-8 relative lg:py-10 lg:pl-10 lg:w-[850px] max-md:mb-[40px] max-md:px-[24px]">
+            <div className="flex flex-col justify-center lg:space-y-8 relative lg:py-10 lg:px-10 lg:w-full max-md:mb-[40px] max-md:px-[24px]">
               <h2 className="font-playfair text-[24px] max-md:mb-[12px] lg:text-[48px]">Hair Styling</h2>
               <p className="text-justify font-mont text-[14px] max-md:mb-[37px]">
                 Hairstyling is an art, and we take great pride in creating
@@ -79,7 +79,7 @@ const Service = () => {
             />
           </div>
           <div className="flex flex-col-reverse lg:flex-row lg:justify-between bg-[#f9ebeb] relative parent max-md:w-[352px] lg:max-h-[480px]">
-            <div className="flex flex-col justify-center lg:space-y-8 relative lg:py-10 lg:pl-10 lg:w-[850px] max-md:mb-[40px] max-md:px-[24px]">
+            <div className="flex flex-col justify-center lg:space-y-8 relative lg:py-10 lg:px-10 lg:w-full max-md:mb-[40px] max-md:px-[24px]">
               <h2 className="font-playfair text-[24px] max-md:mb-[12px] lg:text-[48px]">Workshops</h2>
               <p className="text-justify font-mont text-[14px] max-md:mb-[37px]">
                 Our exclusive makeup workshops cater to both beginners and
