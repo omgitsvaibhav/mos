@@ -14,10 +14,10 @@ const Footer = () => {
             </div>
           <div className="flex items-center">
             <Link to="https://www.youtube.com/@makeoversbysukanya" target="blank" className="mr-[15px]">
-              <img src="/assets/yt.png" alt="youtube" className="h-[38px]" />
+              <img src="/assets/yt.png" alt="youtube" className="h-[48px]" />
             </Link>
             <Link to="https://www.instagram.com/makeoversbysukanya/?igsh=bGU0Y2Y4cGV2ejIw" target="blank">
-              <img src="/assets/Insta.png" alt="instagram" className="w-[22px] h-[22px]" />
+              <img src="/assets/Insta.png" alt="instagram" className="w-[30px] h-[28px]" />
             </Link>
           </div>
         </div>
@@ -39,7 +39,7 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col">
             <p className="font-mont font-bold text-[20px] text-white">Contact</p>
             <div className="grid max-md:mt-[15px] lg:mt-[24px] space-y-[15px]">
               <div>

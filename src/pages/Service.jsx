@@ -107,7 +107,7 @@ const Service = () => {
             </div>
             <LazyLoadImage 
               className="child w-[480px] object-cover"
-              src="/home/service 3.JPG"
+              src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729330685/service_3.jpg"
               alt="service 3"
             />
           </div>

@@ -14,11 +14,11 @@ export default {
         playfair: "'Playfair Display'"
       },
       backgroundImage: {
-        'home': "url('/home/header.jpg')",
-        'about': "url('/about/header.png')",
-        'service': "url('/service/header.png')",
-        'lookbook': "url('/lookbook/header.png')",
-        'contact': "url('/contact/header.png')"
+        'home': "url('https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729331674/header_ns8mgt.jpg')",
+        'about': "url('https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729331863/header_zmr218.png')",
+        'service': "url('https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729331727/header_fda3qy.png')",
+        'lookbook': "url('https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729331681/header_gxlst0.png')",
+        'contact': "url('https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729332279/contact_lgbqy9.png')"
       },
       keyframes: {
         fadeIn: {
