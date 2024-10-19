@@ -38,7 +38,7 @@ const Navbar = () => {
       </nav>
       <div 
         className={`fixed top-0 flex flex-col space-y-[100px] bg-[#282829] w-full h-screen z-50 lg:hidden transition-transform duration-300 ease-in-out ${
-          isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
+          isSidebarOpen ? 'translate-y-0' : '-translate-y-full'
         }`}
       >
         <div className="flex justify-between items-center p-[20px] h-[72px]">
