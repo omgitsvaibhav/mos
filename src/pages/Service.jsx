@@ -20,7 +20,7 @@ const Service = () => {
           perfect look.
         </p>
         <div className="grid gap-y-[44px] lg:gap-[67px]">
-          <div className="flex flex-col-reverse lg:flex-row lg:justify-between bg-[#f9ebeb] relative parent max-md:w-[352px]">
+          <div className="flex flex-col-reverse lg:flex-row lg:justify-between bg-[#f9ebeb] relative parent max-md:w-full">
             <div className="flex flex-col justify-center lg:space-y-8 relative lg:py-10 lg:px-10 lg:w-full max-md:mb-[40px] max-md:px-[24px]">
               <h2 className="font-playfair text-[24px] max-md:mb-[12px] lg:text-[48px]">Make Up</h2>
               <p className="text-justify font-mont text-[14px] max-md:mb-[37px]">
@@ -46,12 +46,12 @@ const Service = () => {
               </Link>
             </div>
             <LazyLoadImage 
-              className="w-[352px] max-md:h-[305px] lg:child lg:w-[480px] object-cover max-md:mb-[24px]"
+              className="max-md:h-[305px] lg:child lg:w-[480px] object-cover max-md:mb-[24px]"
               src="/service/service 1.jpg"
               alt="service 1"
             />
           </div>
-          <div className="flex flex-col-reverse lg:flex-row lg:justify-between bg-[#f9ebeb] relative parent max-md:w-[352px] lg:max-h-[420px]">
+          <div className="flex flex-col-reverse lg:flex-row lg:justify-between bg-[#f9ebeb] relative parent max-md:w-full lg:max-h-[420px]">
             <div className="flex flex-col justify-center lg:space-y-8 relative lg:py-10 lg:px-10 lg:w-full max-md:mb-[40px] max-md:px-[24px]">
               <h2 className="font-playfair text-[24px] max-md:mb-[12px] lg:text-[48px]">Hair Styling</h2>
               <p className="text-justify font-mont text-[14px] max-md:mb-[37px]">
@@ -73,12 +73,12 @@ const Service = () => {
               </Link>
             </div>
             <LazyLoadImage 
-              className="w-[352px] max-md:h-[305px] lg:child lg:w-[480px] object-cover max-md:mb-[24px] object-top"
+              className="max-md:h-[305px] lg:child lg:w-[480px] object-cover max-md:mb-[24px] object-top"
               src="/service/service 2.JPG"
               alt="service 2"
             />
           </div>
-          <div className="flex flex-col-reverse lg:flex-row lg:justify-between bg-[#f9ebeb] relative parent max-md:w-[352px] lg:max-h-[480px]">
+          <div className="flex flex-col-reverse lg:flex-row lg:justify-between bg-[#f9ebeb] relative parent max-md:w-full lg:max-h-[480px]">
             <div className="flex flex-col justify-center lg:space-y-8 relative lg:py-10 lg:px-10 lg:w-full max-md:mb-[40px] max-md:px-[24px]">
               <h2 className="font-playfair text-[24px] max-md:mb-[12px] lg:text-[48px]">Workshops</h2>
               <p className="text-justify font-mont text-[14px] max-md:mb-[37px]">
@@ -106,7 +106,7 @@ const Service = () => {
               </Link>
             </div>
             <LazyLoadImage 
-              className="w-[352px] max-md:h-[305px] lg:child lg:w-[480px] object-cover max-md:mb-[24px] object-[center_-3rem] lg:object-top"
+              className="max-md:h-[305px] lg:child lg:w-[480px] object-cover max-md:mb-[24px] object-[center_-3rem] lg:object-top"
               src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729330685/service_3.jpg"
               alt="service 3"
             />

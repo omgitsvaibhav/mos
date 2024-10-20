@@ -1,6 +1,35 @@
 import { Link } from "react-router-dom";
 import TestimonialSlider from "../components/Slider";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { useInView } from "react-intersection-observer";
+import { useSpring, animated } from "@react-spring/web";
+import { useState, useEffect } from "react";
+
+function AnimatedNumber({ from, to }) {
+  const [animate, setAnimate] = useState(false);
+  const {ref, inView} = useInView({
+    triggerOnce: false,
+    threshold: 0.10
+  });
+
+  useEffect(() => {
+    inView ? setAnimate(true) : setAnimate(false);
+  }, [inView])
+
+  const { number } = useSpring({
+    from: { number: animate && from },
+    to: { number: animate && to },
+    config: { tension: 10, friction: 5 },
+    pause: !inView,
+  });
+
+  return (
+      <animated.span ref={ref} >
+      {number.to((n) => Math.floor(n))}
+    </animated.span>
+
+  );
+}
 
 const Home = () => {
   return (
@@ -131,16 +160,28 @@ const Home = () => {
           <br className="max-md:hidden"/>
           <p className="text-justify">Sukanya’s love affair with makeup began in her childhood, fueled by a deep passion for art and a fascination with colours.</p>
           <div className="grid grid-cols-3 max-md:gap-4 place-items-baseline max-md:mt-[25px] lg:mt-[35px]">
-            <div className="grid place-items-center">
-              <h3 className="font-playfair font-bold text-[28px] lg:text-[40px] text-center">3000+</h3>
+            <div className="flex flex-col">
+              <h3 className="font-playfair font-bold text-[28px] lg:text-[40px] text-center inline-flex">
+                <AnimatedNumber
+                  from={2950}
+                  to={3000}
+                />+</h3>
               <span className="font-mont text-[14px] text-center">BRIDES</span>
             </div>
-            <div className="grid place-items-center pl-5">
-              <h3 className="font-playfair font-bold text-[28px] lg:text-[40px] text-center">10+</h3>
+            <div className="flex flex-col pl-5">
+            <h3 className="font-playfair font-bold text-[28px] lg:text-[40px] text-center inline-flex">
+                <AnimatedNumber
+                  from={5}
+                  to={10}
+                />+</h3>
               <span className="font-mont text-[14px] text-center">YEARS</span>
             </div>
-            <div className="grid place-items-center">
-              <h3 className="font-playfair font-bold text-[28px] lg:text-[40px] text-center">65k+</h3>
+            <div className="flex flex-col">
+            <h3 className="font-playfair font-bold text-[28px] lg:text-[40px] text-center inline-flex">
+                <AnimatedNumber
+                  from={15}
+                  to={65}
+                />k+</h3>
               <span className="font-mont text-[14px] text-center">INSTAGRAM<br/>FOLLOWERS</span>
             </div>
           </div>
