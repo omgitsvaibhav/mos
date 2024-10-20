@@ -70,7 +70,8 @@ const TestimonialSlider = () => {
         
         <div className="max-md:w-[350px] lg:w-full mx-auto relative overflow-hidden" {...swipeHandlers}>
           <button onClick={handlePrev} className="absolute left-1 lg:-left-3 top-1/2 transform -translate-y-1/2 z-10">
-            <ChevronLeft size={40} className="text-[#343232]" />
+            <ChevronLeft size={40} className="max-md:hidden text-[#343232]" />
+            <ChevronLeft size={40} strokeWidth={1} className="lg:hidden text-[#343232]" />
           </button>
           
           <div 
@@ -92,14 +93,15 @@ const TestimonialSlider = () => {
               <div key={index} className="w-full px-[45px] lg:hidden">
                 <div  key={index} className="bg-white rounded-2xl w-[260px] p-6">
                   <p className="font-mont text-[14px] font-bold mb-4">{slide.name} says,</p>
-                  <p className="font-mont text-[14px] text-justify">{slide.content}</p>
+                  <p className="font-mont text-[14px]">{slide.content}</p>
                 </div>
               </div>
             ))}
           </div>
           
           <button onClick={handleNext} className="absolute right-1 lg:-right-3 top-1/2 transform -translate-y-1/2 z-10">
-            <ChevronRight size={40} className="text-[#343232]" />
+            <ChevronRight size={40} className="max-md:hidden text-[#343232]" />
+            <ChevronRight size={40} strokeWidth={1} className="lg:hidden text-[#343232]" />
           </button>
         </div>
         
