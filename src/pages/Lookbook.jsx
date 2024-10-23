@@ -21,7 +21,7 @@ const Service = () => {
 
   return (
     <section className="animate-fadeIn">
-      <section className="bg-lookbook h-[310px] lg:h-[600px] w-full bg-cover bg-[center_top_-40rem] lg:bg-[center_top_-40rem] relative" />
+      <section className="bg-lookbook h-[310px] lg:h-[600px] w-full bg-cover max-xsm:bg-[center_top_-41rem] max-md:bg-[center_top_-46rem] lg:bg-[center_top_-40rem] relative" />
       <div className="page-header-gradient" />
       <section className="grid px-[15px] lg:px-[76px] bg-white pb-[38px] lg:pb-[95px]">
         <h1 className="font-playfair font-bold text-[32px] lg:text-[72px] mb-[20px]">

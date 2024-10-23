@@ -218,7 +218,7 @@ const Home = () => {
             <Link to="/service" className="max-md:hidden bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 hover:bg-transparent hover:border-[1px] hover:border-[#90444d] hover:border-solid hover:text-[#90444d]">Know more</Link>
           </div>
         </div>
-        <Link to="/service" className="place-self-center other-button-hover bg-[#de919b] w-[135px] font-playfair text-[16px] text-center h-[35px] py-1 lg:hidden">Know more</Link>
+        <Link to="/service" className="place-self-center other-button-hover bg-[#de919b] w-[135px] font-bold font-playfair text-[16px] text-center h-[35px] py-1 lg:hidden">Know more</Link>
       </section>
     </section>
   );
