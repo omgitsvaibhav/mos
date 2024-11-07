@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { img } from "react-lazy-load-image-component";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Footer = () => {
   return (
@@ -14,10 +14,10 @@ const Footer = () => {
             </div>
           <div className="flex items-center">
             <Link to="https://www.youtube.com/@makeoversbysukanya" target="blank" className="mr-[15px]">
-              <img src="/assets/yt.png" alt="youtube" className="h-[48px]" />
+              <LazyLoadImage src="/assets/yt.png" alt="youtube" className="h-[48px]" />
             </Link>
             <Link to="https://www.instagram.com/makeoversbysukanya/?igsh=bGU0Y2Y4cGV2ejIw" target="blank">
-              <img src="/assets/Insta.png" alt="instagram" className="w-[30px] h-[28px]" />
+              <LazyLoadImage src="/assets/Insta.png" alt="instagram" className="w-[30px] h-[28px]" />
             </Link>
           </div>
         </div>

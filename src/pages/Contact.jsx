@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { PhoneCallIcon } from "lucide-react";
-import { img } from "react-lazy-load-image-component";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Contact = () => {
   return (
@@ -22,7 +22,7 @@ const Contact = () => {
         </p>
         <div className="flex max-md:flex-col justify-evenly items-center bg-[#F9EBEB] font-mont text-[16px] py-10 lg:py-12">
           <Link to="https://wa.me/message/U4OU4KSH7NAFG1" target="blank">
-            <img
+            <LazyLoadImage
               src="/assets/wa.png"
               alt="whatsapp"
               className="w-10 h-10 lg:w-14 lg:h-14"
@@ -32,7 +32,7 @@ const Contact = () => {
           <div className="max-md:my-10 max-md:w-[60%] h-[0.5px] lg:h-[100px] lg:border-l max-md:bg-[#fda9a9] lg:border-[#fda9a9]"></div>
 
           <Link to="mailto:vaish.manerikar@gmail.com" target="blank">
-            <img
+            <LazyLoadImage
               src="/assets/email.png"
               alt="email"
               className="w-10 h-8 lg:w-14 lg:h-12"
@@ -45,7 +45,7 @@ const Contact = () => {
             to="https://www.instagram.com/makeoversbysukanya/?igsh=bGU0Y2Y4cGV2ejIw"
             target="blank"
           >
-            <img
+            <LazyLoadImage
               src="/assets/Insta.png"
               alt="instagram"
               className="w-10 h-10 lg:w-14 lg:h-14"
@@ -55,7 +55,7 @@ const Contact = () => {
           <div className="max-md:my-10 max-md:w-[60%] h-[0.5px] lg:h-[100px] lg:border-l max-md:bg-[#fda9a9] lg:border-[#fda9a9] lg:hidden"></div>
           
               <Link to='tel:+919370189427' className="lg:hidden">
-                  <img  src="/assets/phone.png" alt="phone" className="w-10 h-10 lg:w-14 lg:h-14"/>
+                  <LazyLoadImage  src="/assets/phone.png" alt="phone" className="w-10 h-10 lg:w-14 lg:h-14"/>
               </Link>
               
           

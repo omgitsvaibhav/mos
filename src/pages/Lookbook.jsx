@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { img } from "react-lazy-load-image-component";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Service = () => {
   const [images, setImages] = useState([]);
@@ -40,7 +40,7 @@ const Service = () => {
         <div className="lookbook-grid">
           {images.map((src, index) => (
             <div key={index} className="lookbook-item">
-              <img src={src} alt={`Lookbook ${index + 1}`}/>
+              <LazyLoadImage src={src} alt={`Lookbook ${index + 1}`}/>
             </div>
           ))}
         </div>

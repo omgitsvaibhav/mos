@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { img } from "react-lazy-load-image-component";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -16,7 +16,7 @@ const Navbar = () => {
           MOS
         </Link>
         <div className="lg:hidden" onClick={toggleSidebar}>
-          <img src="/assets/menu.png" alt="menu" width={25} height={25} />
+          <LazyLoadImage src="/assets/menu.png" alt="menu" width={25} height={25} />
         </div>
         <div className="hidden lg:flex lg:justify-between">
           <Link to="/" className="font-mont navbar-link">
@@ -45,7 +45,7 @@ const Navbar = () => {
           <h4 className="font-playfair font-black text-[#ffffff] text-[32px] lg:text-[40px] text-center">
             MOS
           </h4>
-          <img 
+          <LazyLoadImage 
             src="/assets/close.png"
             alt="close"
             onClick={toggleSidebar}
