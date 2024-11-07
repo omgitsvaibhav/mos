@@ -134,7 +134,7 @@ const Home = () => {
         <p className="font-mont text-[14px] text-center mb-[40px] lg:hidden">Dive into our exquisite bridal lookbook to explore stunning transformations we have achieved on our beautiful brides having tailored to various bridal traditions and styles</p>
         <div className="grid grid-cols-2 place-items-center gap-3 lg:flex lg:flex-row w-full lg:justify-center lg:items-center mb-[40px]">
           <figure className="relative group">
-            <LazyLoadImage  src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729330625/lookbook1.jpg" alt="lookbook 1" className="w-[200px] h-[150px] lg:w-[273px] lg:h-[273px] object-cover object-center lg:mx-[24px]"/>
+            <LazyLoadImage  src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729330625/lookbook1.webp" alt="lookbook 1" className="w-[200px] h-[150px] lg:w-[273px] lg:h-[273px] object-cover object-center lg:mx-[24px]"/>
             <figcaption className="max-md:hidden absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The delicate floral bride - a subtle beauty</figcaption>
           </figure>
           <figure className="relative group">
@@ -142,11 +142,11 @@ const Home = () => {
             <figcaption className="max-md:hidden absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The regal bride - an absolute royalty</figcaption>
           </figure>
           <figure className="relative group">
-            <LazyLoadImage  src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729330636/lookbook3.jpg" alt="lookbook 3" className="w-[200px] h-[150px] lg:w-[273px] lg:h-[273px] object-cover lg:mx-[24px]"/>
+            <LazyLoadImage  src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729330636/lookbook3.webp" alt="lookbook 3" className="w-[200px] h-[150px] lg:w-[273px] lg:h-[273px] object-cover lg:mx-[24px]"/>
             <figcaption className="max-md:hidden absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The perfect sultry bride - a timeless allure</figcaption>
           </figure>
           <figure className="relative group">
-            <LazyLoadImage  src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729330645/lookbook4.jpg" alt="lookbook 4" className="w-[200px] h-[150px] lg:w-[273px] lg:h-[273px] object-cover object-center lg:mx-[24px]"/>
+            <LazyLoadImage  src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729330645/lookbook4.webp" alt="lookbook 4" className="w-[200px] h-[150px] lg:w-[273px] lg:h-[273px] object-cover object-center lg:mx-[24px]"/>
             <figcaption className="max-md:hidden absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The fresh dewy bride - a classic charm</figcaption>
           </figure>
         </div>
@@ -194,7 +194,7 @@ const Home = () => {
         <h1 className="font-playfair text-[28px] lg:text-[40px] font-bold text-[#343232] text-center mb-[35px] lg:mb-[55px]">Services</h1>
         <div className="flex flex-col lg:flex-row lg:justify-around max-md:mb-[40px] lg:space-x-[90px] max-md:space-y-[15px]">
           <div className="max-md:py-5 max-md:space-x-[16px] max-md:flex max-md:items-center lg:grid lg:place-items-center lg:h-[300px] lg:px-[25px] lg:pt-[25px] group bg-[#f9ebeb] lg:bg-opacity-0 lg:transition-all lg:duration-500 lg:ease-in-out lg:hover:bg-opacity-100 lg:transform lg:hover:h-[430px] lg:hover:shadow-[8px_8px_10px_0px_rgba(0,0,0,0.1)]">
-            <LazyLoadImage  alt="service 1" src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729330661/service_1.jpg" className="max-md:ml-8 rounded-full h-[100px] w-[100px] lg:h-[200px] lg:w-[200px] object-cover"/>
+            <LazyLoadImage  alt="service 1" src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729330661/service_1.webp" className="max-md:ml-8 rounded-full h-[100px] w-[100px] lg:h-[200px] lg:w-[200px] object-cover"/>
             <div className="max-md:w-1/2 max-md:grow">
               <p className="font-playfair text-[20px] max-md:mb-2 lg:text-[24px] lg:mt-6 lg:text-center">Makeup</p>
               <p className="font-mont text-[14px] lg:text-center lg:mb-[30px]">Flawless bridal makeup<br className="max-md:hidden"/> for destination weddings</p>
@@ -202,7 +202,7 @@ const Home = () => {
             <Link to="/service" className="max-md:hidden bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 hover:bg-transparent hover:border-[1px] hover:border-[#90444d] hover:border-solid hover:text-[#90444d]">Know more</Link>
           </div>
           <div className="max-md:py-5 max-md:space-x-[16px] max-md:flex max-md:items-center lg:grid lg:place-items-center lg:h-[300px] lg:px-[25px] lg:pt-[25px] group bg-[#f9ebeb] lg:bg-opacity-0 lg:transition-all lg:duration-500 lg:ease-in-out lg:hover:bg-opacity-100 lg:transform lg:hover:h-[430px] lg:hover:shadow-[8px_8px_10px_0px_rgba(0,0,0,0.1)]">
-            <LazyLoadImage  src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729330665/service_2.jpg" alt="service 2" className="max-md:ml-8 rounded-full h-[100px] w-[100px] lg:h-[200px] lg:w-[200px] object-cover"/>
+            <LazyLoadImage  src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729330665/service_2.webp" alt="service 2" className="max-md:ml-8 rounded-full h-[100px] w-[100px] lg:h-[200px] lg:w-[200px] object-cover"/>
             <div className="max-md:w-1/2 max-md:grow">
               <p className="font-playfair text-[20px] max-md:mb-2 lg:text-[24px] lg:mt-6 lg:text-center">Hair Styling</p>
               <p className="font-mont text-[14px] lg:text-center lg:mb-[30px]">Gorgeous bridal hairstyling<br className="max-md:hidden"/> for your perfect look</p>
@@ -210,7 +210,7 @@ const Home = () => {
             <Link to="/service" className="max-md:hidden bg-[#de919b] w-[180px] mb-[40px] font-playfair text-[19px] text-center h-[39px] py-1 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 hover:bg-transparent hover:border-[1px] hover:border-[#90444d] hover:border-solid hover:text-[#90444d]">Know more</Link>
           </div>
           <div className="max-md:py-5 max-md:space-x-[16px] max-md:flex max-md:items-center lg:grid lg:place-items-center lg:h-[300px] lg:px-[25px] lg:pt-[25px] group bg-[#f9ebeb] lg:bg-opacity-0 lg:transition-all lg:duration-500 lg:ease-in-out lg:hover:bg-opacity-100 lg:transform lg:hover:h-[430px] lg:hover:shadow-[8px_8px_10px_0px_rgba(0,0,0,0.1)]">
-          <LazyLoadImage  src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729330685/service_3.jpg" alt="service 3" className="max-md:ml-8 rounded-full h-[100px] w-[100px] lg:h-[200px] lg:w-[200px] object-cover object-top"/>
+          <LazyLoadImage  src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729330685/service_3.webp" alt="service 3" className="max-md:ml-8 rounded-full h-[100px] w-[100px] lg:h-[200px] lg:w-[200px] object-cover object-top"/>
             <div className="max-md:w-1/2 max-md:grow">
               <p className="font-playfair text-[20px] max-md:mb-2 lg:text-[24px] lg:mt-6 lg:text-center">Workshops</p>
               <p className="font-mont text-[14px] lg:text-center lg:mb-[30px]">Exclusive hands-on<br className="max-md:hidden"/> bridal makeup workshops</p>
