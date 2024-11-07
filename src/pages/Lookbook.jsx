@@ -8,8 +8,14 @@ const Service = () => {
   useEffect(() => {
     const imagePaths = [];
     for (let i = 1; i <= 19; i++) {
-      if ((i >= 8 && i <= 11) || i === 18) {
-        imagePaths.push(`/lookbook/lookbook (${i}).webp`);
+      if (i >= 8 && i <= 9) {
+        imagePaths.push(`https://res.cloudinary.com/dsy1vfp2c/image/upload/v1731016761/lookbook${i}.webp`);
+      } else if(i===10) {
+        imagePaths.push(`https://res.cloudinary.com/dsy1vfp2c/image/upload/v1731016763/lookbook${i}.webp`);
+      }else if(i===11) {
+        imagePaths.push(`https://res.cloudinary.com/dsy1vfp2c/image/upload/v1731016765/lookbook${i}.webp`);
+      } else if(i===18) {
+        imagePaths.push(`https://res.cloudinary.com/dsy1vfp2c/image/upload/v1731016760/lookbook_${i}.webp`);
       } else {
         imagePaths.push(
           `https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729267472/lookbook_${i}.webp`

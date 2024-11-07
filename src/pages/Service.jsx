@@ -47,7 +47,7 @@ const Service = () => {
             </div>
             <LazyLoadImage 
               className="max-md:h-[305px] lg:child lg:w-[480px] object-cover max-md:mb-[24px]"
-              src="/service/service 1.webp"
+              src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1731017461/service1.webp"
               alt="service 1"
             />
           </div>
@@ -74,7 +74,7 @@ const Service = () => {
             </div>
             <LazyLoadImage 
               className="max-md:h-[305px] lg:child lg:w-[480px] object-cover max-md:mb-[24px] object-top"
-              src="/service/service 2.webp"
+              src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1731017459/service2.webp"
               alt="service 2"
             />
           </div>

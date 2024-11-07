@@ -138,7 +138,7 @@ const Home = () => {
             <figcaption className="max-md:hidden absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The delicate floral bride - a subtle beauty</figcaption>
           </figure>
           <figure className="relative group">
-            <LazyLoadImage  src="/home/lookbook2.jpg" alt="lookbook 2" className="w-[200px] h-[150px] lg:w-[273px] lg:h-[273px] object-cover object-right lg:mx-[24px]"/>
+            <LazyLoadImage  src="https://res.cloudinary.com/dsy1vfp2c/image/upload/v1731017778/lookbook2.webp" alt="lookbook 2" className="w-[200px] h-[150px] lg:w-[273px] lg:h-[273px] object-cover object-right lg:mx-[24px]"/>
             <figcaption className="max-md:hidden absolute w-[273px] py-2 text-center bottom-0 left-6 h-8 font-mont text-[12px] bg-[#f9ebeb] opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100">The regal bride - an absolute royalty</figcaption>
           </figure>
           <figure className="relative group">
