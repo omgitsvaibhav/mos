@@ -9,7 +9,9 @@ const Service = () => {
     const imagePaths = [];
     for (let i = 1; i <= 19; i++) {
       if ((i >= 8 && i <= 11) || i === 18) {
-        imagePaths.push(`https://res.cloudinary.com/dsy1vfp2c/image/upload/v1731040311/lookbook${i}.webp`);
+        imagePaths.push(
+          `https://res.cloudinary.com/dsy1vfp2c/image/upload/v1731040311/lookbook${i}.webp`
+        );
       } else {
         imagePaths.push(
           `https://res.cloudinary.com/dsy1vfp2c/image/upload/v1729267472/lookbook_${i}.webp`

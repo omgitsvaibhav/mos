@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const location = useLocation();
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
@@ -19,19 +20,19 @@ const Navbar = () => {
           <LazyLoadImage src="/assets/menu.png" alt="menu" width={25} height={25} />
         </div>
         <div className="hidden lg:flex lg:justify-between">
-          <Link to="/" className="font-mont navbar-link">
+          <Link to="/" className={`font-mont navbar-link ${location.pathname === '/' ? 'active' : ''}`}>
             Home
           </Link>
-          <Link to="/about" className="font-mont navbar-link ml-[44px]">
+          <Link to="/about" className={`font-mont navbar-link ml-[44px] ${location.pathname === '/about' ? 'active' : ''}`}>
             About
           </Link>
-          <Link to="/service" className="font-mont navbar-link ml-[44px]">
+          <Link to="/service" className={`font-mont navbar-link ml-[44px] ${location.pathname === '/service' ? 'active' : ''}`}>
             Services
           </Link>
-          <Link to="/lookbook" className="font-mont navbar-link ml-[44px]">
+          <Link to="/lookbook" className={`font-mont navbar-link ml-[44px] ${location.pathname === '/lookbook' ? 'active' : ''}`}>
             Lookbook
           </Link>
-          <Link to="/contact" className="font-mont navbar-link ml-[44px]">
+          <Link to="/contact" className={`font-mont navbar-link ml-[44px] ${location.pathname === '/contact' ? 'active' : ''}`}>
             Contact
           </Link>
         </div>

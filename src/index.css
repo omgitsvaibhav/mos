@@ -35,11 +35,7 @@
     cursor: pointer;
   }
 
-  .navbar-link:active{
-    @apply underline underline-offset-4 font-[600]
-  }
-
-  .navbar-link:focus{
+  .navbar-link.active{
     @apply underline underline-offset-4 font-[600]
   }
 
@@ -106,7 +102,7 @@
     }
     .lookbook-item img {
       width: 100%;
-      height: auto;
+      height: auto ;
       margin-bottom: 15px;
       object-fit: cover;
       transition: transform 0.3s ease;
